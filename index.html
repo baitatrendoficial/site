@@ -104,6 +104,21 @@ nav a:hover{background:var(--cartao)}
 .vazio strong{font-family:var(--f-display);font-size:22px}
 .vazio p{margin:0;color:var(--suave)}
 
+
+/* vitrine */
+.vit-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.vit-item{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column}
+.vit-foto{aspect-ratio:1/1;max-width:100%;background:var(--papel);display:grid;place-items:center;overflow:hidden}
+.vit-foto img{width:100%;height:100%;object-fit:cover;display:block}
+.vit-corpo{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.vit-cat{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--suave)}
+.vit-nome{font-weight:700;font-size:16px;line-height:1.3}
+.vit-prova{font-size:13px;color:var(--suave)}
+.vit-rodape{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:8px;padding-top:8px}
+.vit-preco{font-family:var(--f-display);font-weight:800;font-size:20px}
+.vit-link{font-weight:700;color:var(--laranja-forte);text-decoration:none;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
+.vit-link:hover{text-decoration:underline}
+.vit-nota{font-size:13px;color:var(--suave);margin:0}
 footer{border-top:1px solid var(--linha);padding-top:24px;display:flex;flex-direction:column;gap:10px;font-size:14px;color:var(--suave)}
 footer p{margin:0;max-width:70ch}
 .redes{display:flex;gap:16px;flex-wrap:wrap}
@@ -134,6 +149,7 @@ footer p{margin:0;max-width:70ch}
     <nav aria-label="Seções">
       <a href="#destaque">Destaque</a>
       <a href="#semana">Esta semana</a>
+      <a href="#vitrine">Vitrine</a>
       <a href="#historico">Histórico</a>
     </nav>
   </header>
@@ -168,6 +184,15 @@ footer p{margin:0;max-width:70ch}
       <div class="dias" id="dias"></div>
     </section>
 
+    <section id="vitrine" class="secao" aria-labelledby="titulo-vitrine">
+      <div class="secao-topo">
+        <h2 id="titulo-vitrine">Vitrine: em alta agora</h2>
+        <div class="filtros" id="vit-filtros" role="group" aria-label="Filtrar a vitrine por categoria"></div>
+      </div>
+      <div class="vit-grade" id="vit-grade"></div>
+      <p class="vit-nota" id="vit-nota"></p>
+    </section>
+
     <section id="historico" class="secao" aria-labelledby="titulo-historico">
       <div class="secao-topo">
         <h2 id="titulo-historico">Já passou por aqui</h2>
@@ -187,6 +212,7 @@ footer p{margin:0;max-width:70ch}
 </div>
 
 <script src="dados.js"></script>
+<script src="vitrine.js"></script>
 <script>
 /* Os dados da semana vêm de dados.js, gerado por automacao/atualizar_site.py a partir de dados.json */
 const SEMANA_ATUAL = window.BAITA.semana_atual;
@@ -278,6 +304,33 @@ function arquivo(){
 destaque(SEMANA_ATUAL);
 semana(SEMANA_ATUAL);
 arquivo();
+
+let vitFiltro = 'Todas';
+function vitrine(){
+  const V = window.VITRINE; if (!V) return;
+  const grade = document.getElementById('vit-grade'), filtros = document.getElementById('vit-filtros');
+  grade.replaceChildren(); filtros.replaceChildren();
+  ['Todas', ...V.categorias].forEach(c => {
+    const b = el('button','filtro', c); b.type = 'button'; b.id = 'vit-' + c.toLowerCase().replace(/\W+/g,'-');
+    b.setAttribute('aria-pressed', String(c === vitFiltro));
+    b.addEventListener('click', () => { vitFiltro = c; vitrine(); });
+    filtros.append(b);
+  });
+  V.itens.filter(i => vitFiltro === 'Todas' || i.categoria === vitFiltro).forEach(i => {
+    const c = el('article','vit-item');
+    const f = el('div','vit-foto');
+    if (i.img){ const im = document.createElement('img'); im.src = i.img; im.alt = i.nome; im.loading = 'lazy'; im.referrerPolicy = 'no-referrer'; im.onerror = () => { im.remove(); f.textContent = 'Foto na loja'; }; f.append(im); }
+    else f.textContent = 'Foto na loja';
+    const b = el('div','vit-corpo');
+    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', i.vendas + ' vendidos na ' + i.loja));
+    const r = el('div','vit-rodape'); r.append(el('span','vit-preco num', i.preco));
+    const a = el('a','vit-link','Ver avaliações e comprar'); a.href = i.link; a.target = '_blank'; a.rel = 'sponsored noopener';
+    r.append(a); b.append(r); c.append(f, b); grade.append(c);
+  });
+  const d = dt(V.consultado_em);
+  document.getElementById('vit-nota').textContent = 'Preços e número de vendas consultados na loja em ' + d.getDate() + ' de ' + MESES[d.getMonth()] + '. Podem ter mudado. #publi: links de afiliado.';
+}
+vitrine();
 </script>
 
 </body>
