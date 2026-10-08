@@ -5,41 +5,74 @@
   "periodo_curto": "12–18 out",
   "periodo_longo": "12 a 18 de outubro de 2026",
   "produto": "Guarda-chuva automático reforçado",
-  "beneficios": ["Abre e fecha com 1 botão", "Feito para aguentar vento"],
-  "preco": "R$ [preço]",
-  "link": "",
+  "beneficios": [
+    "Abre e fecha com 1 botão",
+    "Feito para aguentar vento"
+  ],
+  "preco": "R$ 27,00",
+  "link": "https://s.shopee.com.br/9fLW5xRxSL",
   "loja": "Shopee",
   "foto": null,
-  "porque_site": "Outubro chegou com previsão de chuva acima da média no Sul e no Sudeste, e as buscas por guarda-chuva dobraram desde julho.",
+  "porque_site": "Abre e fecha com um botão, tem varetas reforçadas com fibra de vidro e mede 33 cm fechado, então cabe na bolsa. Com outubro prometendo chuva acima da média no Sul e no Sudeste, as buscas por guarda-chuva dobraram desde julho.",
   "sinais": [
-    { "valor": "2x", "fonte": "buscas por guarda-chuva no Google, jul–out" },
-    { "valor": "Acima da média", "fonte": "chuva prevista no Sul e Sudeste em outubro" },
-    { "valor": "RS", "fonte": "estado que mais busca guarda-chuva" }
+    {
+      "valor": "2x",
+      "fonte": "buscas por guarda-chuva no Google, jul–out"
+    },
+    {
+      "valor": "20 mil+",
+      "fonte": "unidades vendidas na Shopee"
+    },
+    {
+      "valor": "4,8",
+      "fonte": "nota média dos compradores na Shopee"
+    }
   ],
   "porque": {
     "titulo": "Outubro chegou com cara de temporal.",
     "numero": "2x",
     "numero_texto": "buscas por “guarda-chuva” no Google, de julho para outubro",
     "itens": [
-      { "titulo": "Chuva acima da média no Sul e no Sudeste", "texto": "É a previsão para outubro, com risco de temporais." },
-      { "titulo": "O Rio Grande do Sul lidera as buscas", "texto": "Bah, aqui a gente sabe o que é vento com chuva." }
+      {
+        "titulo": "Chuva acima da média no Sul e no Sudeste",
+        "texto": "É a previsão para outubro, com risco de temporais."
+      },
+      {
+        "titulo": "O Rio Grande do Sul lidera as buscas",
+        "texto": "Bah, aqui a gente sabe o que é vento com chuva."
+      }
     ],
     "fontes": "Google Trends, Brasil, jul–out 2026 · Climatempo, previsão de 30/09/2026"
   },
   "checklist": {
     "titulo": "Antes de comprar um guarda-chuva, confira:",
     "itens": [
-      { "forte": "Varetas de fibra de vidro.", "texto": "Envergam com o vento em vez de quebrar." },
-      { "forte": "Abre e fecha no botão.", "texto": "Fechar sozinho é o que mais faz falta." },
-      { "forte": "Tamanho fechado.", "texto": "Precisa caber na bolsa ou na mochila que você usa." },
-      { "forte": "Avaliações com foto.", "texto": "Procure fotos de quem já usou na chuva." }
+      {
+        "forte": "Varetas de fibra de vidro.",
+        "texto": "Envergam com o vento em vez de quebrar."
+      },
+      {
+        "forte": "Abre e fecha no botão.",
+        "texto": "Fechar sozinho é o que mais faz falta."
+      },
+      {
+        "forte": "Tamanho fechado.",
+        "texto": "Precisa caber na bolsa ou na mochila que você usa."
+      },
+      {
+        "forte": "Avaliações com foto.",
+        "texto": "Procure fotos de quem já usou na chuva."
+      }
     ]
   },
   "videos": [
     {
-      "dia": "Ter", "duracao": "15 segundos", "titulo": "Abre. Fecha. Guarda.",
+      "dia": "Ter",
+      "duracao": "15 segundos",
+      "titulo": "Abre. Fecha. Guarda.",
       "subtitulo": "Tudo com um botão, mesmo com a outra mão ocupada.",
-      "frame": "Frame do vídeo: mão apertando o botão", "frame_foto": null,
+      "frame": "Frame do vídeo: mão apertando o botão",
+      "frame_foto": null,
       "roteiro": [
         "0–2 s · close da mão segurando o guarda-chuva fechado · texto: Um botão.",
         "2–5 s · aperta o botão e ele abre · texto: Abre.",
@@ -49,9 +82,12 @@
       ]
     },
     {
-      "dia": "Qui", "duracao": "20 segundos", "titulo": "Teste do vento.",
+      "dia": "Qui",
+      "duracao": "20 segundos",
+      "titulo": "Teste do vento.",
       "subtitulo": "Será que ele vira do avesso? Assiste até o fim.",
-      "frame": "Frame do vídeo: guarda-chuva contra o vento", "frame_foto": null,
+      "frame": "Frame do vídeo: guarda-chuva contra o vento",
+      "frame_foto": null,
       "roteiro": [
         "0–3 s · guarda-chuva aberto, ventilador ou secador apontado · texto: Será que vira?",
         "3–12 s · vento no máximo, varetas envergando e voltando · texto: Teste do vento",
@@ -60,9 +96,12 @@
       ]
     },
     {
-      "dia": "Sáb", "duracao": "20 segundos", "titulo": "Fechado, ele cabe em…",
+      "dia": "Sáb",
+      "duracao": "20 segundos",
+      "titulo": "Fechado, ele cabe em…",
       "subtitulo": "Bolsa, carro e mochila. Vai com você para qualquer lugar.",
-      "frame": "Frame do vídeo: guarda-chuva entrando na bolsa", "frame_foto": null,
+      "frame": "Frame do vídeo: guarda-chuva entrando na bolsa",
+      "frame_foto": null,
       "roteiro": [
         "0–3 s · guarda-chuva fechado ao lado de um celular · texto: Fechado, ele cabe em…",
         "3–8 s · entra na bolsa · texto: Bolsa",
@@ -73,12 +112,22 @@
     }
   ],
   "legendas": {
-    "Seg": "Destaque da semana 1: guarda-chuva automático reforçado. Abre e fecha com um botão e é feito pra aguentar vento. Com outubro prometendo chuva acima da média no Sul e no Sudeste, ele virou um dos itens mais buscados da estação.\n\nR$ [preço] · link na bio\n\n#publi Link de afiliado: se você comprar por ele, a gente ganha uma comissão, sem custo extra pra você.\n#baitatrend #guardachuva #chuva #emalta",
+    "Seg": "Destaque da semana 1: guarda-chuva automático reforçado. Abre e fecha com um botão e é feito pra aguentar vento. Com outubro prometendo chuva acima da média no Sul e no Sudeste, ele virou um dos itens mais buscados da estação.\n\nR$ 27,00 · link na bio\n\n#publi Link de afiliado: se você comprar por ele, a gente ganha uma comissão, sem custo extra pra você.\n#baitatrend #guardachuva #chuva #emalta",
     "Ter": "Um botão pra abrir, o mesmo botão pra fechar. Dá pra fazer com uma mão só, com a sacola na outra.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #achadinhos",
     "Qua": "Por que todo mundo está procurando guarda-chuva: as buscas no Google dobraram de julho pra cá, a previsão de outubro é de chuva acima da média no Sul e no Sudeste, e o Rio Grande do Sul lidera o interesse.\n\nFontes: Google Trends e Climatempo.\n\n#baitatrend #chuva #previsaodotempo #emalta",
     "Qui": "Botamos o guarda-chuva na frente do vento. Assiste até o fim pra ver se ele virou do avesso.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #testedovento",
-    "Sex": "Salva pra próxima compra: varetas de fibra de vidro, abre e fecha no botão, tamanho fechado que cabe na sua bolsa e avaliações com foto de quem já usou na chuva.\n\n[Confira no anúncio escolhido antes de publicar:] O destaque da semana passa nos quatro. Link na bio.\n\n#publi Link de afiliado.\n#baitatrend #dicasdecompra #guardachuva",
+    "Sex": "Salva pra próxima compra: varetas de fibra de vidro, abre e fecha no botão, tamanho fechado que cabe na sua bolsa e avaliações com foto de quem já usou na chuva.\n\nO destaque da semana tem varetas reforçadas com fibra de vidro, abre e fecha no botão e mede 33 cm fechado. As avaliações você confere no link da bio.\n\n#publi Link de afiliado.\n#baitatrend #dicasdecompra #guardachuva",
     "Sáb": "Bolsa, porta do carro, mochila. Fechado, ele vai com você pra qualquer lugar e não te pega de surpresa quando a chuva cai.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #rotina",
     "Dom": "Último dia do guarda-chuva como destaque. O link continua na bio, e segunda que vem tem produto novo por aqui.\n\nComenta qual tipo de produto você quer ver nas próximas semanas.\n\n#publi Link de afiliado.\n#baitatrend #emalta #guardachuva"
+  },
+  "anuncio": {
+    "titulo": "Guarda Chuva Automático Abre e Fecha Grande Reforçado Contra Vento Com Proteção Solar Blackout Haste Dupla Cabe na Bolsa",
+    "url": "https://shopee.com.br/product/1477438268/20699758504",
+    "vendidos": "20 mil+",
+    "nota": "4,8",
+    "fechado_cm": 33,
+    "aberto_cm": 100,
+    "peso_g": 435,
+    "consultado_em": "2026-10-08"
   }
 }

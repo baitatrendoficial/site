@@ -1,27 +1,27 @@
 window.BAITA = {
   "semana_atual": {
-    "exemplo": true,
+    "exemplo": false,
     "numero": 1,
     "inicio": "2026-10-12",
     "fim": "2026-10-18",
-    "produto": "[Nome do produto da semana]",
-    "porque": "[Uma frase dizendo por que ele está em alta e que problema resolve.]",
+    "produto": "Guarda-chuva automático reforçado",
+    "porque": "Abre e fecha com um botão, tem varetas reforçadas com fibra de vidro e mede 33 cm fechado, então cabe na bolsa. Com outubro prometendo chuva acima da média no Sul e no Sudeste, as buscas por guarda-chuva dobraram desde julho.",
     "sinais": [
       {
-        "valor": "[+000%]",
-        "fonte": "buscas no Google em 30 dias"
+        "valor": "2x",
+        "fonte": "buscas por guarda-chuva no Google, jul–out"
       },
       {
-        "valor": "[0 mi]",
-        "fonte": "views da #hashtag no TikTok"
+        "valor": "20 mil+",
+        "fonte": "unidades vendidas na Shopee"
       },
       {
-        "valor": "[0 mil]",
-        "fonte": "vendidos na Shopee"
+        "valor": "4,8",
+        "fonte": "nota média dos compradores na Shopee"
       }
     ],
-    "preco": "R$ [00,00]",
-    "link": "#",
+    "preco": "R$ 27,00",
+    "link": "https://s.shopee.com.br/9fLW5xRxSL",
     "loja": "Shopee",
     "foto": null,
     "posts": [
@@ -33,32 +33,32 @@ window.BAITA = {
       {
         "dia": "Ter",
         "formato": "video",
-        "tema": "Ele em uso, 15 segundos"
+        "tema": "Abre. Fecha. Guarda."
       },
       {
         "dia": "Qua",
         "formato": "card",
-        "tema": "Por que está viralizando"
+        "tema": "Por que está em alta"
       },
       {
         "dia": "Qui",
         "formato": "video",
-        "tema": "Antes e depois"
+        "tema": "Teste do vento."
       },
       {
         "dia": "Sex",
         "formato": "card",
-        "tema": "Comparação de preço"
+        "tema": "Antes de comprar, confira"
       },
       {
         "dia": "Sáb",
         "formato": "video",
-        "tema": "Três jeitos de usar"
+        "tema": "Fechado, ele cabe em…"
       },
       {
         "dia": "Dom",
         "formato": "card",
-        "tema": "Resumo e último chamado"
+        "tema": "Última chamada"
       }
     ]
   },
