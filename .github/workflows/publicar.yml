@@ -1,0 +1,30 @@
+name: Publicar semana aprovada
+# Toda segunda 00:05 (Brasília) junta na main as semanas aprovadas cujo início já chegou.
+# A sessão de aprovação envia a semana para a branch aprovada/semana-NN; aqui ela vai ao ar.
+on:
+  schedule:
+    - cron: "5 3 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Juntar semanas aprovadas
+        run: |
+          git config user.name "Baita Trend"
+          git config user.email "baitatrendoficial@gmail.com"
+          hoje=$(TZ=America/Sao_Paulo date +%F)
+          for b in $(git branch -r --list 'origin/aprovada/*' | sed 's#origin/##'); do
+            arq=$(git diff --name-only origin/main...origin/$b -- 'semanas/*.json' | head -1)
+            inicio=$(git show origin/$b:$arq | python3 -c "import json,sys;print(json.load(sys.stdin)['inicio'])")
+            if [[ "$inicio" > "$hoje" ]]; then echo "$b começa $inicio, ainda não"; continue; fi
+            git merge --no-ff origin/$b -m "Semana no ar: $b"
+            git push origin main
+            git push origin --delete $b
+            echo "publicada $b"
+          done

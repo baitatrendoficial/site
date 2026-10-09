@@ -1,7 +1,7 @@
 name: Baixar fotos da semana
 on:
   push:
-    branches: [main]
+    branches: [main, "semana-*", "aprovada/*"]
     paths: ["semanas/*.json"]
   workflow_dispatch:
 permissions:
