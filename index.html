@@ -65,6 +65,23 @@ nav a:hover{background:var(--cartao)}
 .pilula.clara{background:rgba(247,242,232,.55);color:#15120E}
 .destaque h1{font-size:clamp(36px,6vw,64px);font-weight:800;line-height:.98;color:#15120E}
 .porque{font-size:19px;max-width:52ch;color:#15120E}
+.galeria{display:flex;flex-direction:column;gap:10px;min-width:0}
+.galeria .foto{padding:0;border:0;overflow:hidden}
+.galeria .foto img{width:100%;height:100%;object-fit:cover;display:block}
+.miniaturas{display:flex;gap:8px;flex-wrap:wrap}
+.miniaturas button{width:56px;height:56px;padding:0;border-radius:10px;overflow:hidden;border:2px solid transparent;background:#F7F2E8;cursor:pointer}
+.miniaturas button[aria-pressed="true"]{border-color:#15120E}
+.miniaturas img{width:100%;height:100%;object-fit:cover;display:block}
+.prova{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:16px;color:#15120E}
+.prova strong{font-family:var(--f-display);font-size:20px}
+.estrelas{color:#15120E;letter-spacing:1px}
+.beneficios{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;color:#15120E}
+.beneficios li{display:flex;gap:10px;align-items:flex-start;font-size:16px;line-height:1.35}
+.beneficios svg{flex:none;margin-top:2px}
+.video{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.botao.claro{background:rgba(247,242,232,.65);color:#15120E}
+.botao.claro:hover{background:#F7F2E8}
+.tiktok{width:100%;max-width:340px;aspect-ratio:9/16;border:0;border-radius:16px;background:#15120E}
 .sinais{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
 .sinal{background:rgba(247,242,232,.5);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;color:#15120E}
 .sinal strong{font-family:var(--f-display);font-size:24px;font-weight:800}
@@ -158,7 +175,10 @@ footer p{margin:0;max-width:70ch}
 
   <main class="wrap" style="gap:clamp(48px,7vw,88px)">
     <section id="destaque" class="destaque" aria-labelledby="titulo-destaque">
-      <div class="foto" id="foto">[ Foto do produto da semana ]</div>
+      <div class="galeria">
+        <div class="foto" id="foto">[ Foto do produto da semana ]</div>
+        <div class="miniaturas" id="miniaturas" role="group" aria-label="Fotos do produto"></div>
+      </div>
       <div class="info">
         <div class="semana">
           <span class="pilula num" id="semana-num"></span>
@@ -166,7 +186,9 @@ footer p{margin:0;max-width:70ch}
           <span class="pilula clara" id="exemplo" hidden>Exemplo</span>
         </div>
         <h1 id="titulo-destaque"></h1>
+        <div class="prova" id="prova" hidden></div>
         <p class="porque" id="porque"></p>
+        <ul class="beneficios" id="beneficios" aria-label="Benefícios"></ul>
         <div class="sinais" id="sinais" aria-label="Sinais de tendência"></div>
         <div class="compra">
           <span class="preco num" id="preco"></span>
@@ -174,6 +196,7 @@ footer p{margin:0;max-width:70ch}
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M9 7h8v8"/></svg>
           </a>
         </div>
+        <div class="video" id="video"></div>
         <p class="publi">#publi · Link de afiliado. Se você comprar por ele, a gente recebe uma comissão, sem custo extra para você.</p>
       </div>
     </section>
@@ -237,11 +260,37 @@ function destaque(s){
   document.getElementById('titulo-destaque').textContent = s.produto;
   document.getElementById('porque').textContent = s.porque;
   document.getElementById('preco').textContent = s.preco;
-  if (s.foto) {
-    const im = document.createElement('img');
-    im.src = s.foto; im.alt = s.produto;
-    im.style.cssText = 'width:100%;height:100%;object-fit:cover;border-radius:18px';
-    const box = document.getElementById('foto'); box.textContent = ''; box.style.padding = '0'; box.style.border = '0'; box.append(im);
+  const fotos = (s.fotos && s.fotos.length) ? s.fotos : (s.foto ? [s.foto] : []);
+  const caixa = document.getElementById('foto'), minis = document.getElementById('miniaturas');
+  const mostrar = (n) => {
+    const im = document.createElement('img'); im.src = fotos[n]; im.alt = s.produto + ', foto ' + (n + 1); im.referrerPolicy = 'no-referrer';
+    caixa.replaceChildren(im);
+    [...minis.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === n)));
+  };
+  if (fotos.length){
+    if (fotos.length > 1) fotos.forEach((f, n) => {
+      const b = document.createElement('button'); b.type = 'button'; b.id = 'foto-' + n; b.setAttribute('aria-label', 'Ver foto ' + (n + 1));
+      const t = document.createElement('img'); t.src = f; t.alt = ''; t.loading = 'lazy'; t.referrerPolicy = 'no-referrer'; b.append(t);
+      b.addEventListener('click', () => mostrar(n)); minis.append(b);
+    });
+    mostrar(0);
+  }
+  if (s.nota || s.vendidos){
+    const p = document.getElementById('prova'); p.hidden = false;
+    if (s.nota){ const n = parseFloat(String(s.nota).replace(',', '.'));
+      const e = el('span','estrelas', '★★★★★'.slice(0, Math.round(n)) + '☆☆☆☆☆'.slice(0, 5 - Math.round(n))); e.setAttribute('aria-hidden','true');
+      p.append(e, el('strong','num', String(s.nota)), el('span', null, 'de 5 nas avaliações da ' + s.loja)); }
+    if (s.vendidos) p.append(el('span','num', s.vendidos + ' vendidos'));
+  }
+  const ul = document.getElementById('beneficios');
+  (s.beneficios || []).forEach(b => { const li = el('li'); li.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15120E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>'; li.append(document.createTextNode(b)); ul.append(li); });
+  const v = document.getElementById('video');
+  if (s.video_tiktok){
+    const f = document.createElement('iframe'); f.className = 'tiktok'; f.title = 'Vídeo do Baita Trend no TikTok';
+    f.src = 'https://www.tiktok.com/embed/v2/' + s.video_tiktok; f.loading = 'lazy'; f.allow = 'encrypted-media; fullscreen'; v.append(f);
+  }
+  if (s.video_loja){
+    const a = el('a','botao claro','Ver vídeo e avaliações na ' + s.loja); a.href = s.video_loja; a.target = '_blank'; a.rel = 'sponsored noopener'; v.append(a);
   }
   const link = document.getElementById('link');
   link.href = s.link;

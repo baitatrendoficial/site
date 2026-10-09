@@ -10,7 +10,7 @@ CONSULTA = "2026-10-08"
 
 # id, categoria, nome curto, preço, vendas, link de afiliado, arquivo da imagem
 P = [
-    ("20699758504", "Dias de chuva", "Guarda-chuva automático abre e fecha, cabe na bolsa", "27,00", "20 mil+", "https://s.shopee.com.br/9fLW5xRxSL", None),
+    ("20699758504", "Dias de chuva", "Guarda-chuva automático abre e fecha, cabe na bolsa", "27,00", "20 mil+", "https://s.shopee.com.br/9fLW5xRxSL", "https://down-br.img.susercontent.com/file/sg-11134201-7ratq-ma319xguvrkp75"),
     ("58262746825", "Dias de chuva", "Guarda-chuva compacto anti-vento com lanterna", "32,00", "1 mil+", "https://s.shopee.com.br/50ZgZ8SEG5", "br-11134207-820mb-mqo88pve6q6bd7.webp"),
     ("23199568947", "Dias de chuva", "Kit 2 capas de chuva transparentes", "25,89", "2 mil+", "https://s.shopee.com.br/4B0ZZbVOws", "br-11134207-820lu-mtdzzccvfw8y07.webp"),
     ("58251353658", "Dias de chuva", "Varal de chão dobrável para apartamento (12 kg)", "59,90", "30 mil+", "https://s.shopee.com.br/1gJEb0ev17", "br-11134207-81z1k-mhqf3kve4phd06.webp"),
@@ -106,7 +106,7 @@ ORDEM = ["Dias de chuva", "Casa e cozinha", "Ferramentas", "Tecnologia", "Beleza
 
 itens = [{
     "id": i, "categoria": c, "nome": n, "preco": "R$ " + p, "vendas": v,
-    "link": l, "loja": "Shopee", "img": (IMG + f) if f else None,
+    "link": l, "loja": "Shopee", "img": (f if f.startswith("http") else IMG + f) if f else None,
 } for i, c, n, p, v, l, f in P] + [{
     "id": a, "categoria": c, "nome": n, "preco": None, "vendas": None,
     "destaque": "Entre os mais vendidos da Amazon", "link": f"https://www.amazon.com.br/dp/{a}?tag={TAG}",

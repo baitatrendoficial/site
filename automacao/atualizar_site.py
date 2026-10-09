@@ -24,6 +24,12 @@ def para_site(s):
         "link": s.get("link") or "#",
         "loja": s.get("loja", "Shopee"),
         "foto": s.get("foto_site"),
+        "fotos": s.get("fotos_site") or ([s["foto_site"]] if s.get("foto_site") else []),
+        "nota": s.get("nota"),
+        "vendidos": s.get("vendidos"),
+        "beneficios": s.get("beneficios_site") or [],
+        "video_tiktok": s.get("video_tiktok"),
+        "video_loja": s.get("video_loja") or s.get("link"),
         "posts": [
             {"dia": "Seg", "formato": "card", "tema": "Apresentação do produto"},
             {"dia": "Ter", "formato": "video", "tema": v[0]["titulo"]},
