@@ -324,7 +324,7 @@ function vitrine(){
     if (i.img){ const im = document.createElement('img'); im.src = i.img; im.alt = i.nome; im.loading = 'lazy'; im.referrerPolicy = 'no-referrer'; im.onerror = () => { im.remove(); f.textContent = 'Foto na loja'; }; f.append(im); }
     else { f.classList.add('vit-sem-foto'); f.textContent = 'Foto e avaliações na ' + i.loja; }
     const b = el('div','vit-corpo');
-    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', i.vendas ? i.vendas + ' vendidos na ' + i.loja : i.destaque));
+    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', (i.nota ? '★ ' + i.nota.replace('.', ',') + ' · ' : '') + (i.vendas ? i.vendas + ' vendidos ' + (i.loja === 'Mercado Livre' ? 'no ' : 'na ') + i.loja : i.destaque)));
     const r = el('div','vit-rodape'); r.append(i.preco ? el('span','vit-preco num', i.preco) : el('span','vit-preco-loja', 'Preço na ' + i.loja));
     const a = el('a','vit-link','Ver avaliações e comprar'); a.href = i.link; a.target = '_blank'; a.rel = 'sponsored noopener';
     r.append(a); b.append(r); c.append(f, b); grade.append(c);

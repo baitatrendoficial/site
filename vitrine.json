@@ -8,6 +8,7 @@
     "Beleza",
     "Moda",
     "Fitness",
+    "Pet",
     "Infantil"
   ],
   "itens": [
@@ -162,6 +163,171 @@
       "img": "https://down-tx-br.img.susercontent.com/br-11134207-820mf-ms6z4y7egao720.webp"
     },
     {
+      "id": "B09XJL4B9H",
+      "categoria": "Casa e cozinha",
+      "nome": "Potes herméticos Electrolux, 12 unidades",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B09XJL4B9H?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0C2ZNDWK6",
+      "categoria": "Casa e cozinha",
+      "nome": "Bowls de inox com tampa Electrolux",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0C2ZNDWK6?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0CDJ4L7CZ",
+      "categoria": "Casa e cozinha",
+      "nome": "Sanduicheira elétrica Cadence Click",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0CDJ4L7CZ?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0CD4SCM33",
+      "categoria": "Casa e cozinha",
+      "nome": "Panela de pressão antiaderente Tramontina 4,5 L",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0CD4SCM33?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B09VQ39F41",
+      "categoria": "Casa e cozinha",
+      "nome": "Mixer vertical 3 em 1 Elgin Turbo Chef",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B09VQ39F41?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B094X2N4HV",
+      "categoria": "Casa e cozinha",
+      "nome": "Aspirador vertical 2 em 1 Electrolux",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B094X2N4HV?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "MLB5174392077",
+      "categoria": "Casa e cozinha",
+      "nome": "Travesseiro Ortobom Nápoles",
+      "preco": "R$ 18,59",
+      "vendas": "Mais de 1.000",
+      "nota": "4.6",
+      "link": "https://meli.la/2hG19Bv",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_677676-MLA100043989973_122025-O.webp"
+    },
+    {
+      "id": "MLB4361136983",
+      "categoria": "Casa e cozinha",
+      "nome": "Kit 12 marmitas 800 ml com trava",
+      "preco": "R$ 37,52",
+      "vendas": "Mais de 50 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/18rUBZD",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_904470-MLB100679901262_122025-O.webp"
+    },
+    {
+      "id": "MLB5072402736",
+      "categoria": "Casa e cozinha",
+      "nome": "Kit 6 luminárias de emergência recarregáveis",
+      "preco": "R$ 51,75",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/1QTU9iS",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_914465-MLB99391141197_112025-O.webp"
+    },
+    {
+      "id": "MLB6784152210",
+      "categoria": "Casa e cozinha",
+      "nome": "Jogo 6 taças de vidro para sobremesa",
+      "preco": "R$ 23,90",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1jUXTxH",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_761806-MLB110796598632_052026-O.webp"
+    },
+    {
+      "id": "MLB6954461002",
+      "categoria": "Casa e cozinha",
+      "nome": "Faqueiro Tramontina Búzios 24 peças",
+      "preco": "R$ 62,99",
+      "vendas": "Mais de 250 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1Kucfnj",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_885228-MLA105354697197_012026-O.webp"
+    },
+    {
+      "id": "MLB3679704360",
+      "categoria": "Casa e cozinha",
+      "nome": "Cafeteira elétrica Electrolux 15 xícaras",
+      "preco": "R$ 93,50",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/2xPd8nb",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_923263-MLA99474168604_112025-O.webp"
+    },
+    {
+      "id": "MLB7691246548",
+      "categoria": "Casa e cozinha",
+      "nome": "Air fryer Philco 16 litros",
+      "preco": "R$ 346,00",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/112B7Ji",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_628291-MLA108163637680_032026-O.webp"
+    },
+    {
+      "id": "MLB5980069984",
+      "categoria": "Casa e cozinha",
+      "nome": "Robô aspirador WAP W90, varre e passa pano",
+      "preco": "R$ 329,90",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.6",
+      "link": "https://meli.la/2KhmYdD",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_748103-MLA99906601653_112025-O.webp"
+    },
+    {
+      "id": "MLB3658803458",
+      "categoria": "Casa e cozinha",
+      "nome": "Aspirador vertical WAP High Speed 3 em 1",
+      "preco": "R$ 157,79",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1caJzvV",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_841093-MLA116669740751_082026-O.webp"
+    },
+    {
       "id": "22892833180",
       "categoria": "Ferramentas",
       "nome": "Jogo de chaves catraca 46 peças com maleta",
@@ -190,6 +356,50 @@
       "link": "https://s.shopee.com.br/AUud7F7I5d",
       "loja": "Shopee",
       "img": "https://down-tx-br.img.susercontent.com/br-11134207-820lt-msq8pkzchmh355.webp"
+    },
+    {
+      "id": "MLB5599132594",
+      "categoria": "Ferramentas",
+      "nome": "Lavadora de alta pressão WAP WL 1800",
+      "preco": "R$ 299,00",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1Thj5V3",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_969245-MLA99639655414_122025-O.webp"
+    },
+    {
+      "id": "MLB6102865168",
+      "categoria": "Ferramentas",
+      "nome": "Esmerilhadeira Black+Decker 650 W",
+      "preco": "R$ 269,00",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/2y9111M",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_633757-MLA99556934146_122025-O.webp"
+    },
+    {
+      "id": "MLB5070636880",
+      "categoria": "Ferramentas",
+      "nome": "Paquímetro digital 150 mm com estojo",
+      "preco": "R$ 33,90",
+      "vendas": "Mais de 5 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1PVRWRK",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_630842-MLA103266847925_122025-O.webp"
+    },
+    {
+      "id": "MLB7723747770",
+      "categoria": "Ferramentas",
+      "nome": "Kit chave catraca 46 peças Indufer",
+      "preco": "R$ 28,99",
+      "vendas": "Mais de 250 mil",
+      "nota": "4.6",
+      "link": "https://meli.la/1qACYuo",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_609611-MLA99356961706_112025-O.webp"
     },
     {
       "id": "22499247158",
@@ -240,6 +450,149 @@
       "link": "https://s.shopee.com.br/40h9NIW2Hr",
       "loja": "Shopee",
       "img": "https://down-tx-br.img.susercontent.com/br-11134207-820l4-msw6d8dl81s70b.webp"
+    },
+    {
+      "id": "B088C4QZV2",
+      "categoria": "Tecnologia",
+      "nome": "Lâmpada inteligente colorida Elgin, compatível com Alexa",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B088C4QZV2?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0D8V17JSG",
+      "categoria": "Tecnologia",
+      "nome": "Filtro de linha com protetor contra surtos iClamper",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0D8V17JSG?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B09B8VGCR8",
+      "categoria": "Tecnologia",
+      "nome": "Echo Dot com Alexa",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0CP31L73X",
+      "categoria": "Tecnologia",
+      "nome": "Kindle 16 GB",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0CP31L73X?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0CVCLGV1W",
+      "categoria": "Tecnologia",
+      "nome": "Pulseira inteligente Samsung Galaxy Fit3",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0CVCLGV1W?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B0FJMHMCBZ",
+      "categoria": "Tecnologia",
+      "nome": "Headphone Bluetooth Philips TAH2300",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B0FJMHMCBZ?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "B07X4JG2G4",
+      "categoria": "Tecnologia",
+      "nome": "Carregador de pilhas Duracell com 4 pilhas AA",
+      "preco": null,
+      "vendas": null,
+      "destaque": "Entre os mais vendidos da Amazon",
+      "link": "https://www.amazon.com.br/dp/B07X4JG2G4?tag=baitatrendofi-20",
+      "loja": "Amazon",
+      "img": null
+    },
+    {
+      "id": "MLB6495644358",
+      "categoria": "Tecnologia",
+      "nome": "Fone sem fio Xiaomi Redmi Buds 6 Play",
+      "preco": "R$ 109,90",
+      "vendas": "Mais de 1.000",
+      "nota": "4.8",
+      "link": "https://meli.la/1UaPDjx",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_779298-MLB109211456545_032026-O.webp"
+    },
+    {
+      "id": "MLB6278248502",
+      "categoria": "Tecnologia",
+      "nome": "Suporte articulado de TV 32 a 55 polegadas",
+      "preco": "R$ 39,59",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.7",
+      "link": "https://meli.la/2oTKZ6v",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_942615-MLA107186916189_022026-O.webp"
+    },
+    {
+      "id": "MLB4210677721",
+      "categoria": "Tecnologia",
+      "nome": "Tablet Lenovo Tab 10,1\" 64 GB",
+      "preco": "R$ 999,00",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/2toL9jZ",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_684905-MLA106055190360_022026-O.webp"
+    },
+    {
+      "id": "MLB7267895424",
+      "categoria": "Tecnologia",
+      "nome": "Hub USB-C 5 em 1 Ugreen com HDMI",
+      "preco": "R$ 85,50",
+      "vendas": "Mais de 1.000",
+      "nota": "4.9",
+      "link": "https://meli.la/11GYbkj",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_647485-MLA99493903651_112025-O.webp"
+    },
+    {
+      "id": "MLB5174003386",
+      "categoria": "Tecnologia",
+      "nome": "Kit teclado e mouse sem fio C3Tech",
+      "preco": "R$ 72,23",
+      "vendas": "Mais de 5 mil",
+      "nota": "4.7",
+      "link": "https://meli.la/2sk3h6P",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_662695-MLA99968107315_112025-O.webp"
+    },
+    {
+      "id": "MLB5881683952",
+      "categoria": "Tecnologia",
+      "nome": "Power bank 20.000 mAh com display",
+      "preco": "R$ 69,90",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.5",
+      "link": "https://meli.la/2M69ZdF",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_703252-MLA99485758076_112025-O.webp"
     },
     {
       "id": "42655559896",
@@ -350,6 +703,50 @@
       "link": "https://s.shopee.com.br/2BFVBvd10I",
       "loja": "Shopee",
       "img": "https://down-tx-br.img.susercontent.com/0b71142df0dd7b510644a4003a2c524a.webp"
+    },
+    {
+      "id": "MLB4311848782",
+      "categoria": "Beleza",
+      "nome": "Escova secadora Britânia 4 em 1",
+      "preco": "R$ 104,21",
+      "vendas": "Mais de 500 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1TaHGb7",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_877711-MLA118854536139_102026-O.webp"
+    },
+    {
+      "id": "MLB7591605188",
+      "categoria": "Beleza",
+      "nome": "Truss Uso Obrigatório 260 ml",
+      "preco": "R$ 67,13",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/1nE8kBQ",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_756430-MLA108913064464_032026-O.webp"
+    },
+    {
+      "id": "MLB5361144874",
+      "categoria": "Beleza",
+      "nome": "Aparador Philco Multigroom 8 em 1",
+      "preco": "R$ 113,53",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.7",
+      "link": "https://meli.la/2vDAEdt",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_999787-MLA100009174297_122025-O.webp"
+    },
+    {
+      "id": "MLB4260565867",
+      "categoria": "Beleza",
+      "nome": "Kit 15 esmaltes Risqué",
+      "preco": "R$ 62,44",
+      "vendas": "Mais de 5 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/2BZgdxw",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_981657-MLB95595621137_102025-O.webp"
     },
     {
       "id": "19497692224",
@@ -472,6 +869,83 @@
       "img": "https://down-tx-br.img.susercontent.com/sg-11134201-825av-mqz5ojv4n4sk03.webp"
     },
     {
+      "id": "MLB4189368533",
+      "categoria": "Fitness",
+      "nome": "Balança de bioimpedância com app",
+      "preco": "R$ 29,90",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/2PatTSB",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_750371-MLA116617370667_082026-O.webp"
+    },
+    {
+      "id": "MLB7665678820",
+      "categoria": "Fitness",
+      "nome": "Bicicleta ergométrica spinning Liftness X11",
+      "preco": "R$ 416,13",
+      "vendas": "Mais de 5 mil",
+      "nota": "4.8",
+      "link": "https://meli.la/2tNTTqm",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_684041-MLA115289475775_072026-O.webp"
+    },
+    {
+      "id": "MLB6149790328",
+      "categoria": "Fitness",
+      "nome": "Copo térmico gigante 1,2 L inox",
+      "preco": "R$ 51,99",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/1SWgW97",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_763470-MLA115323351322_082026-O.webp"
+    },
+    {
+      "id": "MLB3910897819",
+      "categoria": "Fitness",
+      "nome": "Colchão inflável casal com inflador embutido",
+      "preco": "R$ 136,30",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.6",
+      "link": "https://meli.la/1Dt2F6B",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_768237-MLA96082859257_102025-O.webp"
+    },
+    {
+      "id": "MLB4074612815",
+      "categoria": "Pet",
+      "nome": "Cama pet lavável na máquina",
+      "preco": "R$ 71,09",
+      "vendas": "Mais de 10 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/1m8LyCA",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_654593-MLA95714019840_102025-O.webp"
+    },
+    {
+      "id": "MLB4437625985",
+      "categoria": "Pet",
+      "nome": "Areia higiênica Viva Verde 4 kg",
+      "preco": "R$ 62,90",
+      "vendas": "Mais de 100 mil",
+      "nota": "4.9",
+      "link": "https://meli.la/1SE7DSw",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_765671-MLA82647682538_032025-O.webp"
+    },
+    {
+      "id": "MLB4970343919",
+      "categoria": "Pet",
+      "nome": "Tapete higiênico pet, 50 unidades",
+      "preco": "R$ 40,39",
+      "vendas": "Mais de 5 mil",
+      "nota": "4.7",
+      "link": "https://meli.la/2g5Tnp1",
+      "loja": "Mercado Livre",
+      "img": "https://http2.mlstatic.com/D_NQ_NP_955216-MLA114022806412_072026-O.webp"
+    },
+    {
       "id": "58268341942",
       "categoria": "Infantil",
       "nome": "Squishy dumpling antiestresse",
@@ -510,149 +984,6 @@
       "link": "https://s.shopee.com.br/3qNjAzWfci",
       "loja": "Shopee",
       "img": "https://down-tx-br.img.susercontent.com/br-11134207-7r98o-m1zrew60x93z0f.webp"
-    },
-    {
-      "id": "B09XJL4B9H",
-      "categoria": "Casa e cozinha",
-      "nome": "Potes herméticos Electrolux, 12 unidades",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B09XJL4B9H?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0C2ZNDWK6",
-      "categoria": "Casa e cozinha",
-      "nome": "Bowls de inox com tampa Electrolux",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0C2ZNDWK6?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0CDJ4L7CZ",
-      "categoria": "Casa e cozinha",
-      "nome": "Sanduicheira elétrica Cadence Click",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0CDJ4L7CZ?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0CD4SCM33",
-      "categoria": "Casa e cozinha",
-      "nome": "Panela de pressão antiaderente Tramontina 4,5 L",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0CD4SCM33?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B09VQ39F41",
-      "categoria": "Casa e cozinha",
-      "nome": "Mixer vertical 3 em 1 Elgin Turbo Chef",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B09VQ39F41?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B094X2N4HV",
-      "categoria": "Casa e cozinha",
-      "nome": "Aspirador vertical 2 em 1 Electrolux",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B094X2N4HV?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B088C4QZV2",
-      "categoria": "Tecnologia",
-      "nome": "Lâmpada inteligente colorida Elgin, compatível com Alexa",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B088C4QZV2?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0D8V17JSG",
-      "categoria": "Tecnologia",
-      "nome": "Filtro de linha com protetor contra surtos iClamper",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0D8V17JSG?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B09B8VGCR8",
-      "categoria": "Tecnologia",
-      "nome": "Echo Dot com Alexa",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B09B8VGCR8?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0CP31L73X",
-      "categoria": "Tecnologia",
-      "nome": "Kindle 16 GB",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0CP31L73X?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0CVCLGV1W",
-      "categoria": "Tecnologia",
-      "nome": "Pulseira inteligente Samsung Galaxy Fit3",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0CVCLGV1W?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B0FJMHMCBZ",
-      "categoria": "Tecnologia",
-      "nome": "Headphone Bluetooth Philips TAH2300",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B0FJMHMCBZ?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
-    },
-    {
-      "id": "B07X4JG2G4",
-      "categoria": "Tecnologia",
-      "nome": "Carregador de pilhas Duracell com 4 pilhas AA",
-      "preco": null,
-      "vendas": null,
-      "destaque": "Entre os mais vendidos da Amazon",
-      "link": "https://www.amazon.com.br/dp/B07X4JG2G4?tag=baitatrendofi-20",
-      "loja": "Amazon",
-      "img": null
     }
   ]
 }

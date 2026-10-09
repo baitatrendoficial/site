@@ -87,7 +87,22 @@ AMZ = [
     ("B07X4JG2G4", "Tecnologia", "Carregador de pilhas Duracell com 4 pilhas AA"),
 ]
 
-ORDEM = ["Dias de chuva", "Casa e cozinha", "Ferramentas", "Tecnologia", "Beleza", "Moda", "Fitness", "Infantil"]
+# Mercado Livre: dados do painel de afiliados (Produtos mais vendidos), 09/10/2026
+ML = []
+for linha in open(os.path.join(RAIZ, "automacao", "mercadolivre_s01.tsv"), encoding="utf-8"):
+    c = linha.rstrip("\n").split("\t")
+    if len(c) < 9:
+        continue
+    cat, mid, preco, nota, vend, pic, nome, url, link = c[:9]
+    v = vend.replace("mil", " mil") if "mil" in vend else f"{int(vend):,}".replace(",", ".")
+    ML.append({
+        "id": mid, "categoria": cat, "nome": nome,
+        "preco": "R$ " + f"{float(preco):,.2f}".replace(",", "X").replace(".", ",").replace("X", "."),
+        "vendas": "Mais de " + v, "nota": nota, "link": link, "loja": "Mercado Livre",
+        "img": f"https://http2.mlstatic.com/D_NQ_NP_{pic}-O.webp",
+    })
+
+ORDEM = ["Dias de chuva", "Casa e cozinha", "Ferramentas", "Tecnologia", "Beleza", "Moda", "Fitness", "Pet", "Infantil"]
 
 itens = [{
     "id": i, "categoria": c, "nome": n, "preco": "R$ " + p, "vendas": v,
@@ -96,8 +111,9 @@ itens = [{
     "id": a, "categoria": c, "nome": n, "preco": None, "vendas": None,
     "destaque": "Entre os mais vendidos da Amazon", "link": f"https://www.amazon.com.br/dp/{a}?tag={TAG}",
     "loja": "Amazon", "img": None,
-} for a, c, n in AMZ]
+} for a, c, n in AMZ] + ML
 
+itens.sort(key=lambda i: ORDEM.index(i["categoria"]))
 out = {"consultado_em": CONSULTA, "categorias": ORDEM, "itens": itens}
 with open(os.path.join(RAIZ, "vitrine.json"), "w", encoding="utf-8") as fp:
     json.dump(out, fp, ensure_ascii=False, indent=2)
