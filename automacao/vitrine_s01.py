@@ -69,12 +69,34 @@ P = [
     ("20297976747", "Infantil", "Bomba tira-leite automática", "39,89", "10 mil+", "https://s.shopee.com.br/3qNjAzWfci", "br-11134207-7r98o-m1zrew60x93z0f.webp"),
 ]
 
+# Amazon: sem preço e sem imagem (a política do programa só permite exibir preço e foto vindos da API oficial)
+TAG = "baitatrendofi-20"
+AMZ = [
+    ("B09XJL4B9H", "Casa e cozinha", "Potes herméticos Electrolux, 12 unidades"),
+    ("B0C2ZNDWK6", "Casa e cozinha", "Bowls de inox com tampa Electrolux"),
+    ("B0CDJ4L7CZ", "Casa e cozinha", "Sanduicheira elétrica Cadence Click"),
+    ("B0CD4SCM33", "Casa e cozinha", "Panela de pressão antiaderente Tramontina 4,5 L"),
+    ("B09VQ39F41", "Casa e cozinha", "Mixer vertical 3 em 1 Elgin Turbo Chef"),
+    ("B094X2N4HV", "Casa e cozinha", "Aspirador vertical 2 em 1 Electrolux"),
+    ("B088C4QZV2", "Tecnologia", "Lâmpada inteligente colorida Elgin, compatível com Alexa"),
+    ("B0D8V17JSG", "Tecnologia", "Filtro de linha com protetor contra surtos iClamper"),
+    ("B09B8VGCR8", "Tecnologia", "Echo Dot com Alexa"),
+    ("B0CP31L73X", "Tecnologia", "Kindle 16 GB"),
+    ("B0CVCLGV1W", "Tecnologia", "Pulseira inteligente Samsung Galaxy Fit3"),
+    ("B0FJMHMCBZ", "Tecnologia", "Headphone Bluetooth Philips TAH2300"),
+    ("B07X4JG2G4", "Tecnologia", "Carregador de pilhas Duracell com 4 pilhas AA"),
+]
+
 ORDEM = ["Dias de chuva", "Casa e cozinha", "Ferramentas", "Tecnologia", "Beleza", "Moda", "Fitness", "Infantil"]
 
 itens = [{
     "id": i, "categoria": c, "nome": n, "preco": "R$ " + p, "vendas": v,
     "link": l, "loja": "Shopee", "img": (IMG + f) if f else None,
-} for i, c, n, p, v, l, f in P]
+} for i, c, n, p, v, l, f in P] + [{
+    "id": a, "categoria": c, "nome": n, "preco": None, "vendas": None,
+    "destaque": "Entre os mais vendidos da Amazon", "link": f"https://www.amazon.com.br/dp/{a}?tag={TAG}",
+    "loja": "Amazon", "img": None,
+} for a, c, n in AMZ]
 
 out = {"consultado_em": CONSULTA, "categorias": ORDEM, "itens": itens}
 with open(os.path.join(RAIZ, "vitrine.json"), "w", encoding="utf-8") as fp:

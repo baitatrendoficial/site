@@ -118,6 +118,8 @@ nav a:hover{background:var(--cartao)}
 .vit-preco{font-family:var(--f-display);font-weight:800;font-size:20px;white-space:nowrap}
 .vit-link{font-weight:700;text-align:right;line-height:1.2;color:var(--laranja-forte);text-decoration:none;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
 .vit-link:hover{text-decoration:underline}
+.vit-sem-foto{font-family:var(--f-display);font-weight:700;font-size:18px;color:var(--suave);text-align:center;padding:16px}
+.vit-preco-loja{font-size:14px;font-weight:700;color:var(--suave)}
 .vit-nota{font-size:13px;color:var(--suave);margin:0}
 footer{border-top:1px solid var(--linha);padding-top:24px;display:flex;flex-direction:column;gap:10px;font-size:14px;color:var(--suave)}
 footer p{margin:0;max-width:70ch}
@@ -320,15 +322,15 @@ function vitrine(){
     const c = el('article','vit-item');
     const f = el('div','vit-foto');
     if (i.img){ const im = document.createElement('img'); im.src = i.img; im.alt = i.nome; im.loading = 'lazy'; im.referrerPolicy = 'no-referrer'; im.onerror = () => { im.remove(); f.textContent = 'Foto na loja'; }; f.append(im); }
-    else f.textContent = 'Foto na loja';
+    else { f.classList.add('vit-sem-foto'); f.textContent = 'Foto e avaliações na ' + i.loja; }
     const b = el('div','vit-corpo');
-    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', i.vendas + ' vendidos na ' + i.loja));
-    const r = el('div','vit-rodape'); r.append(el('span','vit-preco num', i.preco));
+    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', i.vendas ? i.vendas + ' vendidos na ' + i.loja : i.destaque));
+    const r = el('div','vit-rodape'); r.append(i.preco ? el('span','vit-preco num', i.preco) : el('span','vit-preco-loja', 'Preço na ' + i.loja));
     const a = el('a','vit-link','Ver avaliações e comprar'); a.href = i.link; a.target = '_blank'; a.rel = 'sponsored noopener';
     r.append(a); b.append(r); c.append(f, b); grade.append(c);
   });
   const d = dt(V.consultado_em);
-  document.getElementById('vit-nota').textContent = 'Preços e número de vendas consultados na loja em ' + d.getDate() + ' de ' + MESES[d.getMonth()] + '. Podem ter mudado. #publi: links de afiliado.';
+  document.getElementById('vit-nota').textContent = 'Preços, vendas e listas de mais vendidos consultados nas lojas em ' + d.getDate() + ' de ' + MESES[d.getMonth()] + '. Podem ter mudado. #publi: links de afiliado.';
 }
 vitrine();
 </script>
