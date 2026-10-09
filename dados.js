@@ -9,15 +9,15 @@ window.BAITA = {
     "sinais": [
       {
         "valor": "2x",
-        "fonte": "buscas por guarda-chuva no Google, jul–out"
+        "fonte": "buscas por guarda-chuva no Google desde julho"
       },
       {
-        "valor": "20 mil+",
-        "fonte": "unidades vendidas na Shopee"
+        "valor": "Acima da média",
+        "fonte": "chuva prevista para outubro no Sul e Sudeste"
       },
       {
-        "valor": "4,8",
-        "fonte": "nota média dos compradores na Shopee"
+        "valor": "RS",
+        "fonte": "estado que mais procura guarda-chuva"
       }
     ],
     "preco": "R$ 27,00",
