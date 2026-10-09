@@ -1,0 +1,23 @@
+name: Baixar fotos da semana
+on:
+  push:
+    branches: [main]
+    paths: ["semanas/*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python automacao/baixar_fotos.py
+      - name: Salvar fotos no repositório
+        run: |
+          git config user.name "Baita Trend"
+          git config user.email "baitatrendoficial@gmail.com"
+          git add semanas/fotos
+          git diff --cached --quiet || (git commit -m "Fotos da semana (automático)" && git push)
