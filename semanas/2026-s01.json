@@ -84,15 +84,16 @@
     {
       "dia": "Qui",
       "duracao": "20 segundos",
-      "titulo": "Teste do vento.",
-      "subtitulo": "Será que ele vira do avesso? Assiste até o fim.",
-      "frame": "Frame do vídeo: guarda-chuva contra o vento",
-      "frame_foto": "fotos/2026-s01/3.jpg",
+      "titulo": "Feito para o vento.",
+      "subtitulo": "10 varetas reforçadas com fibra de vidro.",
+      "frame": "Frame do vídeo: varetas do guarda-chuva",
+      "frame_foto": "fotos/2026-s01/4.jpg",
       "roteiro": [
-        "0–3 s · guarda-chuva aberto, ventilador ou secador apontado · texto: Será que vira?",
-        "3–12 s · vento no máximo, varetas envergando e voltando · texto: Teste do vento",
-        "12–16 s · desliga e mostra o resultado real · texto: Resultado: [o que aconteceu]",
-        "16–20 s · card final · texto: Link na bio · #publi"
+        "0–2 s · foto do guarda-chuva aberto · texto: Dia de vento forte?",
+        "2–5 s · detalhe das varetas · texto: 10 varetas de metal",
+        "5–8 s · varetas e tecido · texto: Reforço de fibra de vidro",
+        "8–10 s · guarda-chuva fechado · texto: E fecha com um clique",
+        "10–13 s · card final · texto: Link na bio · #publi"
       ]
     },
     {
@@ -103,11 +104,11 @@
       "frame": "Frame do vídeo: guarda-chuva entrando na bolsa",
       "frame_foto": "fotos/2026-s01/5.jpg",
       "roteiro": [
-        "0–3 s · guarda-chuva fechado ao lado de um celular · texto: Fechado, ele cabe em…",
-        "3–8 s · entra na bolsa · texto: Bolsa",
-        "8–13 s · entra no bolso da porta do carro · texto: Carro",
-        "13–17 s · entra no bolso lateral da mochila · texto: Mochila",
-        "17–20 s · card final · texto: Link na bio · #publi"
+        "0–3 s · guarda-chuva fechado · texto: Fechado, ele tem 33 cm",
+        "3–6 s · foto do produto · texto: Cabe na bolsa",
+        "6–9 s · foto do produto · texto: Cabe na mochila",
+        "9–12 s · foto do produto · texto: Aberto, cabem duas pessoas",
+        "12–15 s · card final · texto: Link na bio · #publi"
       ]
     }
   ],
@@ -115,7 +116,7 @@
     "Seg": "Destaque da semana 1: guarda-chuva automático reforçado. Abre e fecha com um botão e é feito pra aguentar vento. Com outubro prometendo chuva acima da média no Sul e no Sudeste, ele virou um dos itens mais buscados da estação.\n\nR$ 27,00 · link na bio\n\n#publi Link de afiliado: se você comprar por ele, a gente ganha uma comissão, sem custo extra pra você.\n#baitatrend #guardachuva #chuva #emalta",
     "Ter": "Um botão pra abrir, o mesmo botão pra fechar. Dá pra fazer com uma mão só, com a sacola na outra.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #achadinhos",
     "Qua": "Por que todo mundo está procurando guarda-chuva: as buscas no Google dobraram de julho pra cá, a previsão de outubro é de chuva acima da média no Sul e no Sudeste, e o Rio Grande do Sul lidera o interesse.\n\nFontes: Google Trends e Climatempo.\n\n#baitatrend #chuva #previsaodotempo #emalta",
-    "Qui": "Botamos o guarda-chuva na frente do vento. Assiste até o fim pra ver se ele virou do avesso.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #testedovento",
+    "Qui": "Dia de vento forte é o teste de todo guarda-chuva. O destaque da semana tem 10 varetas de metal com reforço de fibra de vidro, que envergam com a rajada em vez de quebrar.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #diadechuva",
     "Sex": "Salva pra próxima compra: varetas de fibra de vidro, abre e fecha no botão, tamanho fechado que cabe na sua bolsa e avaliações com foto de quem já usou na chuva.\n\nO destaque da semana tem varetas reforçadas com fibra de vidro, abre e fecha no botão e mede 33 cm fechado. As avaliações você confere no link da bio.\n\n#publi Link de afiliado.\n#baitatrend #dicasdecompra #guardachuva",
     "Sáb": "Bolsa, porta do carro, mochila. Fechado, ele vai com você pra qualquer lugar e não te pega de surpresa quando a chuva cai.\n\nLink na bio.\n\n#publi Link de afiliado.\n#baitatrend #guardachuva #rotina",
     "Dom": "Último dia do guarda-chuva como destaque. O link continua na bio, e segunda que vem tem produto novo por aqui.\n\nComenta qual tipo de produto você quer ver nas próximas semanas.\n\n#publi Link de afiliado.\n#baitatrend #emalta #guardachuva"
