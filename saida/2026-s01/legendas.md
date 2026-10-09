@@ -48,7 +48,7 @@ O destaque da semana tem varetas reforçadas com fibra de vidro, abre e fecha no
 
 ## Sáb · Fechado, ele cabe em… (Vídeo, 11h)
 
-Bolsa, porta do carro, mochila. Fechado, ele vai com você pra qualquer lugar e não te pega de surpresa quando a chuva cai.
+Fechado, ele tem 33 cm: cabe na bolsa e na mochila. Aberto, protege duas pessoas. Vai com você pra todo lado e não te pega de surpresa quando a chuva cai.
 
 Link na bio.
 
