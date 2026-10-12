@@ -56,8 +56,9 @@ def main():
     py = sys.executable
     subprocess.run([py, os.path.join(AQUI, "gerar_posts.py"), arq, saida], check=True)
     subprocess.run([py, os.path.join(AQUI, "gerar_videos.py"), arq, saida], check=True)
+    subprocess.run([py, os.path.join(AQUI, "gerar_stories.py"), arq, saida], check=True)
     subprocess.run([py, os.path.join(AQUI, "atualizar_site.py"), arq], check=True)
-    print(f"Pronto: posts e vídeos em saida/{nome}/, site atualizado (dados.js).")
+    print(f"Pronto: posts, vídeos, stories e reforco.json em saida/{nome}/, site atualizado (dados.js).")
 
 
 if __name__ == "__main__":

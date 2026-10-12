@@ -66,22 +66,31 @@ Pare aqui e espere. Se ele pedir ajuste, ajuste e mande de novo.
 
 1. `git push origin semana-NN:aprovada/semana-NN` e apague a `semana-NN`. O workflow "Publicar semana aprovada"
    põe o site no ar na segunda 00h05. Não junte na `main` antes disso (o produto atual ainda está em destaque).
-2. Agende os 7 posts no Metricool (Instagram + TikTok), mídia por "From URL" com o endereço `raw.githubusercontent.com`
-   da branch `aprovada/semana-NN`:
+2. Agende tudo no Metricool pelo conector "Metricool Social Media Management" (brand 7328590, fuso America/Sao_Paulo),
+   com `createScheduledPost`. Mídia por URL pública da branch:
+   `https://raw.githubusercontent.com/baitatrendoficial/site/aprovada/semana-NN/saida/AAAA-sNN/<arquivo>`.
+   Se o conector não estiver disponível, use o Metricool pelo Chrome (aba visível, recarregar se travar).
+
+   a) Os 7 posts (Instagram + TikTok), legendas de `saida/AAAA-sNN/legendas.md`:
 
 | Dia | Hora | Arquivo | Instagram |
 |---|---|---|---|
-| Seg | 12h | 1-seg-destaque.png | Post |
-| Ter | 19h | 2-ter-video.mp4 | Reel |
-| Qua | 12h | 3-qua-por-que-esta-em-alta.png | Post |
-| Qui | 19h | 4-qui-video.mp4 | Reel |
-| Sex | 12h | 5-sex-antes-de-comprar.png | Post |
-| Sáb | 11h | 6-sab-video.mp4 | Reel |
-| Dom | 19h | 7-dom-ultima-chamada.png | Post |
+| Seg | 12h | 1-seg-destaque.png | POST |
+| Ter | 19h | 2-ter-video.mp4 | REEL |
+| Qua | 12h | 3-qua-por-que-esta-em-alta.png | POST |
+| Qui | 19h | 4-qui-video.mp4 | REEL |
+| Sex | 12h | 5-sex-antes-de-comprar.png | POST |
+| Sáb | 11h | 6-sab-video.mp4 | REEL |
+| Dom | 19h | 7-dom-ultima-chamada.png | POST |
 
-   Nos cards, ligue "Add random music" e preencha o título do TikTok. Legendas em `saida/AAAA-sNN/legendas.md`.
-   Dicas: a aba do Metricool precisa estar visível; se um menu travar, recarregue a página; confira o contador de
-   caracteres depois de colar a legenda (às vezes ela some e precisa digitar de novo).
+   Cards: `tiktokData` com `autoAddMusic: true` e `title`. Vídeos: Instagram `type: REEL`.
+   `commercialContentThirdParty` e `commercialContentOwnBrand` sempre false.
+
+   b) Reforço, a partir de `saida/AAAA-sNN/reforco.json`:
+   - `stories`: 21 stories (9h, 15h, 21h), só Instagram, `instagramData.type: STORY`, sem texto.
+   - `tiktok_extra`: 1 TikTok por dia às 17h (foto do story da tarde), com `title`, `text` e `autoAddMusic: true`.
+
+   Confira depois com `getScheduledPosts` que entraram 35 itens (7 + 21 + 7).
 3. Se o Metricool recusar por limite do plano, pare e avise o Cassiano com as opções (plano pago, só uma rede, manual).
 4. Mostre a agenda da semana preenchida e encerre.
 

@@ -1,0 +1,132 @@
+{
+  "stories": [
+    {
+      "data": "2026-10-12T09:00:00",
+      "arquivo": "stories/seg-1.png"
+    },
+    {
+      "data": "2026-10-12T15:00:00",
+      "arquivo": "stories/seg-2.png"
+    },
+    {
+      "data": "2026-10-12T21:00:00",
+      "arquivo": "stories/seg-3.png"
+    },
+    {
+      "data": "2026-10-13T09:00:00",
+      "arquivo": "stories/ter-1.png"
+    },
+    {
+      "data": "2026-10-13T15:00:00",
+      "arquivo": "stories/ter-2.png"
+    },
+    {
+      "data": "2026-10-13T21:00:00",
+      "arquivo": "stories/ter-3.png"
+    },
+    {
+      "data": "2026-10-14T09:00:00",
+      "arquivo": "stories/qua-1.png"
+    },
+    {
+      "data": "2026-10-14T15:00:00",
+      "arquivo": "stories/qua-2.png"
+    },
+    {
+      "data": "2026-10-14T21:00:00",
+      "arquivo": "stories/qua-3.png"
+    },
+    {
+      "data": "2026-10-15T09:00:00",
+      "arquivo": "stories/qui-1.png"
+    },
+    {
+      "data": "2026-10-15T15:00:00",
+      "arquivo": "stories/qui-2.png"
+    },
+    {
+      "data": "2026-10-15T21:00:00",
+      "arquivo": "stories/qui-3.png"
+    },
+    {
+      "data": "2026-10-16T09:00:00",
+      "arquivo": "stories/sex-1.png"
+    },
+    {
+      "data": "2026-10-16T15:00:00",
+      "arquivo": "stories/sex-2.png"
+    },
+    {
+      "data": "2026-10-16T21:00:00",
+      "arquivo": "stories/sex-3.png"
+    },
+    {
+      "data": "2026-10-17T09:00:00",
+      "arquivo": "stories/sab-1.png"
+    },
+    {
+      "data": "2026-10-17T15:00:00",
+      "arquivo": "stories/sab-2.png"
+    },
+    {
+      "data": "2026-10-17T21:00:00",
+      "arquivo": "stories/sab-3.png"
+    },
+    {
+      "data": "2026-10-18T09:00:00",
+      "arquivo": "stories/dom-1.png"
+    },
+    {
+      "data": "2026-10-18T15:00:00",
+      "arquivo": "stories/dom-2.png"
+    },
+    {
+      "data": "2026-10-18T21:00:00",
+      "arquivo": "stories/dom-3.png"
+    }
+  ],
+  "tiktok_extra": [
+    {
+      "data": "2026-10-12T17:00:00",
+      "arquivo": "stories/seg-2.png",
+      "titulo": "Guarda-chuva automático reforçado: por que está em alta",
+      "texto": "Buscas por guarda-chuva no Google desde julho. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-13T17:00:00",
+      "arquivo": "stories/ter-2.png",
+      "titulo": "Guarda-chuva automático reforçado: quem comprou aprovou",
+      "texto": "Nota 4,8 de 5 e 20 mil+ vendidos na Shopee. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-14T17:00:00",
+      "arquivo": "stories/qua-2.png",
+      "titulo": "Guarda-chuva automático reforçado: por que está em alta",
+      "texto": "Chuva prevista para outubro no Sul e Sudeste. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-15T17:00:00",
+      "arquivo": "stories/qui-2.png",
+      "titulo": "Guarda-chuva automático reforçado: detalhe que faz diferença",
+      "texto": "33 cm fechado, cabe na bolsa ou na mochila. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-16T17:00:00",
+      "arquivo": "stories/sex-2.png",
+      "titulo": "Guarda-chuva automático reforçado: quem comprou aprovou",
+      "texto": "Nota 4,8 de 5 e 20 mil+ vendidos na Shopee. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-17T17:00:00",
+      "arquivo": "stories/sab-2.png",
+      "titulo": "Guarda-chuva automático reforçado: antes de comprar",
+      "texto": "Confira as avaliações com foto no anúncio. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    },
+    {
+      "data": "2026-10-18T17:00:00",
+      "arquivo": "stories/dom-2.png",
+      "titulo": "Guarda-chuva automático reforçado: quem comprou aprovou",
+      "texto": "Nota 4,8 de 5 e 20 mil+ vendidos na Shopee. Guarda-chuva automático reforçado por R$ 27,00, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta"
+    }
+  ]
+}
