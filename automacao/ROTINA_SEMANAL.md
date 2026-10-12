@@ -85,7 +85,7 @@ Pare aqui e espere. Se ele pedir ajuste, ajuste e mande de novo.
 3. Se o Metricool recusar por limite do plano, pare e avise o Cassiano com as opções (plano pago, só uma rede, manual).
 4. Mostre a agenda da semana preenchida e encerre.
 
-## Decisões em aberto
+## Decisões
 
-- Selo "Parceria paga" (Conteúdo comercial → Conteúdo de marca) no TikTok: **desligado** até o Cassiano decidir.
-  Ligar exige aceitar a política de conteúdo de marca do TikTok, então só com o ok dele.
+- Selo "Parceria paga" (Conteúdo comercial) no TikTok: **sempre desligado** (decisão do Cassiano em 12/10/2026).
+  A divulgação fica pelo #publi na legenda e no card.
