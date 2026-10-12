@@ -38,6 +38,7 @@ Crie `semanas/AAAA-sNN.json` copiando o formato de `semanas/2026-s01.json` (núm
 - Português do Brasil, tom direto e amigável, sem exagero ("melhor do mundo", "imperdível").
 - Só afirmar o que está no anúncio ou nas fontes. Nada de "testamos" se não testamos.
 - Toda legenda de produto termina com `#publi Link de afiliado.` (exigência do CONAR). Quarta é o card de contexto.
+- Nunca escreva "link na bio": o TikTok ainda não tem link clicável. Use "Link no perfil: baitatrend.com.br".
 - Não copiar avaliações de compradores nem vídeos do vendedor. Fotos do anúncio vão em `fotos_site` (URLs diretas).
 - Os vídeos usam as fotos do produto com legendas; o roteiro só pode descrever o que a foto mostra.
 - Atualize também a vitrine se algum produto dela saiu do ar.

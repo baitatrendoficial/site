@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<style>:root{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<meta name="theme-color" content="#FF5A1F">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="favicon.png">
 <meta property="og:title" content="Baita Trend">
@@ -13,348 +13,330 @@
 <meta name="description" content="O produto em alta da semana, escolhido a partir das tendências do TikTok, Google e marketplaces.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&display=swap">
 <style>
-/* Layout: one column, a loud orange "destaque" block, then the week's posts as a day strip, then the archive grouped by month */
+/* Página de produto no estilo marketplace: faixa laranja no topo, cartões brancos sobre fundo claro,
+   galeria à esquerda e caixa de compra à direita, vitrine em grade de cartões clicáveis. */
 :root{
+  color-scheme:light;
   --laranja:#FF5A1F;
-  --laranja-forte:#D9420C;
-  --tinta:#15120E;
-  --papel:#F7F2E8;
-  --cartao:#FFFFFF;
-  --suave:#5E554B;
-  --linha:#E3DACB;
-  --sobre-laranja:#15120E;
-  --f-display:'Bricolage Grotesque', 'Arial Narrow', Arial, sans-serif;
-  --f-texto:'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif;
-  --f-mono:'IBM Plex Mono', ui-monospace, Menlo, monospace;
-  --raio:18px;
+  --laranja-escuro:#E04A12;
+  --laranja-claro:#FFE6DA;
+  --laranja-fundo:#FFF3EC;
+  --tinta:#1F1A16;
+  --suave:#6B6259;
+  --linha:#EADFD6;
+  --fundo:#F6EFE9;
+  --branco:#FFFFFF;
+  --verde:#00A650;
+  --f:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;
+  --raio:14px;
+  --sombra:0 1px 2px rgba(31,26,22,.06),0 4px 14px rgba(31,26,22,.06);
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --laranja:#FF6A33;--laranja-forte:#FF8A5C;--tinta:#F4EEE3;--papel:#16130F;--cartao:#211C17;--suave:#B4A898;--linha:#3A3229;--sobre-laranja:#15120E;color-scheme:dark}}
-:root[data-theme="dark"]{
-  --laranja:#FF6A33;--laranja-forte:#FF8A5C;--tinta:#F4EEE3;--papel:#16130F;--cartao:#211C17;--suave:#B4A898;--linha:#3A3229;--sobre-laranja:#15120E;color-scheme:dark}
-
 *{box-sizing:border-box}
-body{background:var(--papel);color:var(--tinta);font-family:var(--f-texto);font-size:17px;line-height:1.5;padding-inline:clamp(16px,4vw,48px);padding-block:0 48px}
-.wrap{max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(48px,7vw,88px)}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--fundo);color:var(--tinta);font-family:var(--f);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
 a{color:inherit}
-a:focus-visible,button:focus-visible{outline:3px solid var(--laranja);outline-offset:3px;border-radius:6px}
-h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-0.02em}
-.rotulo{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--suave)}
+[hidden]{display:none!important}
+a:focus-visible,button:focus-visible{outline:3px solid var(--tinta);outline-offset:2px;border-radius:8px}
+h1,h2,h3{margin:0;letter-spacing:-0.02em;text-wrap:balance}
 .num{font-variant-numeric:tabular-nums}
+.conteudo{max-width:1180px;margin:0 auto;padding-inline:16px}
 
-/* topo */
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--papel);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:16px;border-bottom:1px solid var(--linha)}
-.marca{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--f-display);font-weight:800;font-size:24px;letter-spacing:-0.03em}
-.marca .t{color:var(--laranja)}
-.icone{width:38px;height:38px;border-radius:10px;background:var(--laranja);display:grid;place-items:center;position:relative;flex:none}
-.icone b{font-family:var(--f-display);font-weight:800;font-size:30px;line-height:1;color:#F7F2E8;margin-top:-4px}
+/* topo laranja */
+.topo{position:sticky;top:0;z-index:20;background:var(--laranja);box-shadow:0 1px 0 rgba(0,0,0,.08)}
+.topo .conteudo{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;position:relative}
+.marca{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:22px;letter-spacing:-0.03em;color:var(--tinta)}
+.marca .t{color:#FFF}
+.icone{width:36px;height:36px;border-radius:10px;background:var(--tinta);display:grid;place-items:center;position:relative;flex:none}
+.icone b{font-weight:800;font-size:27px;line-height:1;color:#FFF;margin-top:-3px}
 .icone svg{position:absolute;top:3px;right:2px}
-nav{display:flex;gap:4px;flex-wrap:wrap}
-nav a{text-decoration:none;font-weight:500;padding:8px 12px;border-radius:999px}
-nav a:hover{background:var(--cartao)}
+.menu{display:flex;gap:4px}
+.menu a{text-decoration:none;font-weight:700;color:var(--tinta);padding:10px 14px;border-radius:999px}
+.menu a:hover{background:rgba(255,255,255,.25)}
+.abrir-menu{display:none;align-items:center;justify-content:center;width:44px;height:44px;border:0;border-radius:12px;background:rgba(255,255,255,.22);color:var(--tinta);cursor:pointer}
 
-/* destaque */
-.destaque{background:var(--laranja);color:var(--sobre-laranja);border-radius:28px;padding:clamp(20px,4vw,48px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(24px,4vw,48px);align-items:center;margin-top:32px}
-.destaque .rotulo{color:var(--sobre-laranja);opacity:.8}
-.foto{aspect-ratio:1/1;max-width:100%;border-radius:20px;background:#F7F2E8;display:grid;place-items:center;text-align:center;padding:24px;color:#5E554B;font-family:var(--f-mono);font-size:13px;border:2px dashed rgba(21,18,14,.25)}
-.info{display:flex;flex-direction:column;gap:18px;min-width:0}
-.semana{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.pilula{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;background:#15120E;color:#F7F2E8;padding:6px 10px;border-radius:999px}
-.pilula.clara{background:rgba(247,242,232,.55);color:#15120E}
-.destaque h1{font-size:clamp(36px,6vw,64px);font-weight:800;line-height:.98;color:#15120E}
-.porque{font-size:19px;max-width:52ch;color:#15120E}
-.galeria{display:flex;flex-direction:column;gap:10px;min-width:0}
-.galeria .foto{padding:0;border:0;overflow:hidden}
-.galeria .foto img{width:100%;height:100%;object-fit:cover;display:block}
-.miniaturas{display:flex;gap:8px;flex-wrap:wrap}
-.miniaturas button{width:56px;height:56px;padding:0;border-radius:10px;overflow:hidden;border:2px solid transparent;background:#F7F2E8;cursor:pointer}
-.miniaturas button[aria-pressed="true"]{border-color:#15120E}
-.miniaturas img{width:100%;height:100%;object-fit:cover;display:block}
-.prova{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:16px;color:#15120E}
-.prova strong{font-family:var(--f-display);font-size:20px}
-.estrelas{color:#15120E;letter-spacing:1px}
-.beneficios{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;color:#15120E}
-.beneficios li{display:flex;gap:10px;align-items:flex-start;font-size:16px;line-height:1.35}
+/* trilha */
+.trilha{font-size:14px;color:var(--suave);padding-block:14px 10px}
+.trilha strong{color:var(--tinta);font-weight:500}
+
+/* produto */
+.produto{background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:32px;padding:24px;align-items:start}
+.galeria{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;align-items:start;position:sticky;top:88px}
+.miniaturas{display:flex;flex-direction:column;gap:8px}
+.miniaturas button{width:64px;height:64px;padding:0;border-radius:10px;overflow:hidden;border:2px solid var(--linha);background:#FFF;cursor:pointer}
+.miniaturas button[aria-pressed="true"]{border-color:var(--laranja)}
+.miniaturas img{width:100%;height:100%;object-fit:cover}
+.foto{aspect-ratio:1/1;width:100%;border-radius:12px;overflow:hidden;background:var(--laranja-fundo);display:grid;place-items:center;color:var(--suave)}
+.foto img{width:100%;height:100%;object-fit:cover}
+.info{display:flex;flex-direction:column;gap:16px;min-width:0}
+.selos{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--suave)}
+.selo{background:var(--laranja);color:#FFF;font-weight:800;font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:5px 10px;border-radius:6px}
+.selo.claro{background:var(--laranja-claro);color:var(--laranja-escuro)}
+.produto h1{font-size:clamp(26px,3.2vw,36px);font-weight:800;line-height:1.08}
+.prova{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:15px;color:var(--suave)}
+.prova .nota{font-weight:800;color:var(--tinta)}
+.estrelas{display:inline-flex;gap:1px}
+.preco{font-size:clamp(34px,4vw,44px);font-weight:500;line-height:1;letter-spacing:-0.02em}
+.preco-nota{font-size:14px;color:var(--suave);margin:-8px 0 0}
+.comprar{display:flex;flex-direction:column;gap:10px}
+.botao{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:800;font-size:17px;min-height:52px;padding:12px 20px;border-radius:12px;background:var(--laranja);color:#FFF;border:0}
+.botao:hover{background:var(--laranja-escuro)}
+.botao.secundario{background:var(--laranja-claro);color:var(--laranja-escuro)}
+.botao.secundario:hover{background:#FFD6C2}
+.publi{font-size:13px;color:var(--suave);margin:0}
+.bloco{border-top:1px solid var(--linha);padding-top:16px;display:flex;flex-direction:column;gap:10px}
+.bloco h2{font-size:18px;font-weight:800}
+.beneficios{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.beneficios li{display:flex;gap:10px;align-items:flex-start;line-height:1.4}
 .beneficios svg{flex:none;margin-top:2px}
-.video{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.botao.claro{background:rgba(247,242,232,.65);color:#15120E}
-.botao.claro:hover{background:#F7F2E8}
-.tiktok{width:100%;max-width:340px;aspect-ratio:9/16;border:0;border-radius:16px;background:#15120E}
-.sinais{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.sinal{background:rgba(247,242,232,.5);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;color:#15120E}
-.sinal strong{font-family:var(--f-display);font-size:24px;font-weight:800}
-.sinal span{font-size:13px}
-.compra{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
-.preco{font-family:var(--f-display);font-weight:800;font-size:34px;color:#15120E}
-.botao{display:inline-flex;align-items:center;gap:8px;background:#15120E;color:#F7F2E8;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:999px;min-height:48px}
-.botao:hover{background:#000}
-.publi{font-size:13px;color:#15120E;opacity:.85}
+.porque{margin:0;color:var(--suave)}
+.sinais{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sinal{background:var(--laranja-fundo);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.sinal strong{font-size:20px;font-weight:800;color:var(--laranja-escuro);line-height:1.15}
+.sinal span{font-size:13px;color:var(--suave);line-height:1.3}
 
-/* semana */
-.secao{display:flex;flex-direction:column;gap:20px}
-.secao-topo{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
-.secao h2{font-size:clamp(28px,4vw,40px);font-weight:800}
-.dias{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}
-.dia{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:14px;display:flex;flex-direction:column;gap:8px;min-height:150px}
-.dia.hoje{border:2px solid var(--laranja)}
-.dia .d{font-family:var(--f-display);font-weight:800;font-size:20px}
-.formato{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:500;color:var(--suave)}
-.formato svg{flex:none}
-.dia p{margin:0;font-size:14px;line-height:1.35}
-.estado{margin-top:auto;font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
-.estado.feito{color:var(--laranja-forte)}
-.estado.vem{color:var(--suave)}
+/* faixa das redes */
+.redes-faixa{margin-top:16px;background:var(--laranja);border-radius:var(--raio);padding:18px 22px;display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between}
+.redes-faixa p{margin:0;font-weight:700;font-size:17px}
+.redes-links{display:flex;gap:10px;flex-wrap:wrap}
+.redes-links a{background:var(--tinta);color:#FFF;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:999px;min-height:44px;display:inline-flex;align-items:center}
 
-/* histórico */
-.filtros{display:flex;gap:8px;flex-wrap:wrap}
-.filtro{font:inherit;font-size:15px;font-weight:500;background:var(--cartao);color:var(--tinta);border:1px solid var(--linha);border-radius:999px;padding:8px 16px;min-height:44px;cursor:pointer}
-.filtro[aria-pressed="true"]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
-.mes{display:flex;flex-direction:column;gap:12px}
-.mes h3{font-size:22px;font-weight:700}
-.lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
-.item{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);padding:16px;display:flex;flex-direction:column;gap:6px}
-.item .nome{font-family:var(--f-display);font-weight:700;font-size:19px}
-.item a{font-weight:700;color:var(--laranja-forte)}
-.vazio{border:2px dashed var(--linha);border-radius:var(--raio);padding:32px;display:flex;flex-direction:column;gap:8px;max-width:640px}
-.vazio strong{font-family:var(--f-display);font-size:22px}
-.vazio p{margin:0;color:var(--suave)}
-
+/* seções */
+.secao{margin-top:40px;display:flex;flex-direction:column;gap:16px}
+.secao-topo{display:flex;flex-direction:column;gap:12px}
+.secao h2{font-size:clamp(24px,3vw,30px);font-weight:800}
+.secao h2 .t{color:var(--laranja-escuro)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;font:inherit;font-size:15px;font-weight:700;background:var(--branco);color:var(--tinta);border:1px solid var(--linha);border-radius:999px;padding:8px 16px;min-height:44px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--laranja);border-color:var(--laranja);color:#FFF}
 
 /* vitrine */
-.vit-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
-.vit-item{background:var(--cartao);border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column}
-.vit-foto{aspect-ratio:1/1;max-width:100%;background:var(--papel);display:grid;place-items:center;overflow:hidden}
-.vit-foto img{width:100%;height:100%;object-fit:cover;display:block}
-.vit-corpo{padding:14px;display:flex;flex-direction:column;gap:6px;flex:1}
-.vit-cat{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--suave)}
-.vit-nome{font-weight:700;font-size:16px;line-height:1.3}
-.vit-prova{font-size:13px;color:var(--suave)}
-.vit-rodape{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:8px;padding-top:8px}
-.vit-preco{font-family:var(--f-display);font-weight:800;font-size:20px;white-space:nowrap}
-.vit-link{font-weight:700;text-align:right;line-height:1.2;color:var(--laranja-forte);text-decoration:none;padding:10px 0;min-height:44px;display:inline-flex;align-items:center}
-.vit-link:hover{text-decoration:underline}
-.vit-sem-foto{font-family:var(--f-display);font-weight:700;font-size:18px;color:var(--suave);text-align:center;padding:16px}
-.vit-preco-loja{font-size:14px;font-weight:700;color:var(--suave)}
-.vit-nota{font-size:13px;color:var(--suave);margin:0}
-footer{border-top:1px solid var(--linha);padding-top:24px;display:flex;flex-direction:column;gap:10px;font-size:14px;color:var(--suave)}
-footer p{margin:0;max-width:70ch}
-.redes{display:flex;gap:16px;flex-wrap:wrap}
-.redes a{font-weight:700;color:var(--tinta)}
+.grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:box-shadow .15s,transform .15s}
+.card:hover{box-shadow:0 8px 24px rgba(31,26,22,.14);transform:translateY(-2px)}
+.card-foto{aspect-ratio:1/1;background:#FFF;border-bottom:1px solid var(--linha);display:grid;place-items:center;overflow:hidden}
+.card-foto img{width:100%;height:100%;object-fit:contain}
+.card-sem-foto{background:var(--laranja-fundo);color:var(--laranja-escuro);font-weight:800;text-align:center;padding:16px;font-size:16px;line-height:1.25}
+.card-corpo{padding:12px 14px 14px;display:flex;flex-direction:column;gap:4px;flex:1}
+.card-preco{font-size:24px;font-weight:500;letter-spacing:-0.01em}
+.card-preco.loja{font-size:15px;font-weight:700;color:var(--laranja-escuro)}
+.card-nome{font-size:14px;line-height:1.35;color:var(--tinta);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.7em}
+.card-prova{font-size:13px;color:var(--suave);display:flex;gap:4px;align-items:center;flex-wrap:wrap}
+.card-loja{margin-top:auto;padding-top:8px;display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;font-weight:700}
+.card-loja .l{color:var(--verde)}
+.card-loja .v{color:var(--laranja-escuro);text-align:right}
+.nota-rodape{font-size:13px;color:var(--suave);margin:0}
+
+/* histórico */
+.lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.item{background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);padding:16px;display:flex;flex-direction:column;gap:4px}
+.item .quando{font-size:13px;color:var(--suave)}
+.item .nome{font-weight:800;font-size:18px}
+.item a{font-weight:800;color:var(--laranja-escuro)}
+.vazio{background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);padding:24px;display:flex;flex-direction:column;gap:6px;max-width:640px}
+.vazio strong{font-size:19px}
+.vazio p{margin:0;color:var(--suave)}
+
+footer{margin-top:48px;background:var(--tinta);color:#E9DFD5}
+footer .conteudo{padding-block:28px 40px;display:flex;flex-direction:column;gap:12px;font-size:14px}
+footer p{margin:0;max-width:72ch}
+footer a{color:#FFF;font-weight:700}
+.rod-redes{display:flex;gap:16px;flex-wrap:wrap}
 
 @media (max-width:900px){
-  .destaque{grid-template-columns:minmax(0,1fr)}
-  .foto{max-width:420px;width:100%;justify-self:center}
-  .dias{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
+  .produto{grid-template-columns:minmax(0,1fr);padding:16px;gap:20px}
+  .galeria{position:static;grid-template-columns:minmax(0,1fr)}
+  .miniaturas{flex-direction:row;order:2;overflow-x:auto}
+  .miniaturas button{flex:none;width:56px;height:56px}
 }
-@media (max-width:480px){
+@media (max-width:720px){
+  .abrir-menu{display:inline-flex}
+  .menu{display:none;position:absolute;left:0;right:0;top:100%;background:var(--laranja);flex-direction:column;padding:8px 16px 16px;box-shadow:0 10px 20px rgba(0,0,0,.12)}
+  .menu.aberto{display:flex}
+  .menu a{padding:14px 12px;border-radius:10px;font-size:17px}
   .sinais{grid-template-columns:minmax(0,1fr)}
-  nav a{padding:8px 10px}
+  .grade{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .card-preco{font-size:20px}
+  .redes-faixa{flex-direction:column;align-items:flex-start}
 }
-@media (prefers-reduced-motion:no-preference){
-  .botao,.filtro{transition:background .15s}
-}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}.card:hover{transform:none}}
 </style>
-
 </head>
 <body>
-<div class="wrap">
-  <header>
+<header class="topo">
+  <div class="conteudo">
     <a class="marca" href="#destaque" aria-label="Baita Trend, início">
-      <span class="icone" aria-hidden="true"><b>b</b><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#15120E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M9 7h8v8"/></svg></span>
+      <span class="icone" aria-hidden="true"><b>b</b><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M9 7h8v8"/></svg></span>
       <span>baita <span class="t">trend</span></span>
     </a>
-    <nav aria-label="Seções">
-      <a href="#destaque">Destaque</a>
-      <a href="#semana">Esta semana</a>
+    <button class="abrir-menu" id="abrir-menu" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="menu" id="menu" aria-label="Seções">
+      <a href="#destaque">Destaque da semana</a>
       <a href="#vitrine">Vitrine</a>
-      <a href="#historico">Histórico</a>
+      <a href="#historico">Já passou por aqui</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main class="wrap" style="gap:clamp(48px,7vw,88px)">
-    <section id="destaque" class="destaque" aria-labelledby="titulo-destaque">
-      <div class="galeria">
-        <div class="foto" id="foto">[ Foto do produto da semana ]</div>
-        <div class="miniaturas" id="miniaturas" role="group" aria-label="Fotos do produto"></div>
+<main class="conteudo">
+  <div class="trilha" id="trilha"></div>
+
+  <section id="destaque" class="produto" aria-labelledby="titulo-destaque">
+    <div class="galeria">
+      <div class="miniaturas" id="miniaturas" role="group" aria-label="Fotos do produto"></div>
+      <div class="foto" id="foto">Foto do produto</div>
+    </div>
+    <div class="info">
+      <div class="selos">
+        <span class="selo">Destaque da semana</span>
+        <span class="selo claro num" id="semana-datas"></span>
+        <span id="vendidos" class="num"></span>
       </div>
-      <div class="info">
-        <div class="semana">
-          <span class="pilula num" id="semana-num"></span>
-          <span class="pilula clara num" id="semana-datas"></span>
-          <span class="pilula clara" id="exemplo" hidden>Exemplo</span>
-        </div>
-        <h1 id="titulo-destaque"></h1>
-        <div class="prova" id="prova" hidden></div>
+      <h1 id="titulo-destaque"></h1>
+      <div class="prova" id="prova" hidden></div>
+      <div class="preco num" id="preco"></div>
+      <p class="preco-nota" id="preco-nota"></p>
+      <div class="comprar">
+        <a class="botao" id="link" href="#" target="_blank" rel="sponsored noopener">Comprar</a>
+        <a class="botao secundario" id="video-loja" href="#" target="_blank" rel="sponsored noopener" hidden>Ver vídeo e avaliações</a>
+        <p class="publi">#publi · Link de afiliado: se você comprar por ele, a gente recebe uma comissão, sem custo extra pra você.</p>
+      </div>
+      <div class="bloco">
+        <h2>O que você precisa saber</h2>
+        <ul class="beneficios" id="beneficios"></ul>
+      </div>
+      <div class="bloco">
+        <h2>Por que está em alta</h2>
         <p class="porque" id="porque"></p>
-        <ul class="beneficios" id="beneficios" aria-label="Benefícios"></ul>
-        <div class="sinais" id="sinais" aria-label="Sinais de tendência"></div>
-        <div class="compra">
-          <span class="preco num" id="preco"></span>
-          <a class="botao" id="link" href="#" target="_blank" rel="sponsored noopener">Ver na loja
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M9 7h8v8"/></svg>
-          </a>
-        </div>
-        <div class="video" id="video"></div>
-        <p class="publi">#publi · Link de afiliado. Se você comprar por ele, a gente recebe uma comissão, sem custo extra para você.</p>
+        <div class="sinais" id="sinais"></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="semana" class="secao" aria-labelledby="titulo-semana">
-      <div class="secao-topo">
-        <h2 id="titulo-semana">Os 7 posts da semana</h2>
-        <span class="rotulo">1 produto · 1 post por dia</span>
-      </div>
-      <div class="dias" id="dias"></div>
-    </section>
+  <div class="redes-faixa">
+    <p>Todo dia tem post novo sobre o destaque.</p>
+    <div class="redes-links">
+      <a href="https://www.instagram.com/baitatrendoficial/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@baitatrendoficial" target="_blank" rel="noopener">TikTok</a>
+    </div>
+  </div>
 
-    <section id="vitrine" class="secao" aria-labelledby="titulo-vitrine">
-      <div class="secao-topo">
-        <h2 id="titulo-vitrine">Vitrine: em alta agora</h2>
-        <div class="filtros" id="vit-filtros" role="group" aria-label="Filtrar a vitrine por categoria"></div>
-      </div>
-      <div class="vit-grade" id="vit-grade"></div>
-      <p class="vit-nota" id="vit-nota"></p>
-    </section>
+  <section id="vitrine" class="secao" aria-labelledby="titulo-vitrine">
+    <div class="secao-topo">
+      <h2 id="titulo-vitrine">Vitrine: <span class="t">em alta agora</span></h2>
+      <div class="chips" id="vit-filtros" role="group" aria-label="Filtrar por categoria"></div>
+    </div>
+    <div class="grade" id="vit-grade"></div>
+    <p class="nota-rodape" id="vit-nota"></p>
+  </section>
 
-    <section id="historico" class="secao" aria-labelledby="titulo-historico">
-      <div class="secao-topo">
-        <h2 id="titulo-historico">Já passou por aqui</h2>
-        <div class="filtros" id="filtros" role="group" aria-label="Filtrar por mês"></div>
-      </div>
-      <div id="arquivo" class="secao"></div>
-    </section>
-  </main>
+  <section id="historico" class="secao" aria-labelledby="titulo-historico">
+    <div class="secao-topo">
+      <h2 id="titulo-historico">Já passou <span class="t">por aqui</span></h2>
+    </div>
+    <div id="arquivo"></div>
+  </section>
+</main>
 
-  <footer>
-    <div class="redes">
+<footer>
+  <div class="conteudo">
+    <div class="rod-redes">
       <a href="https://www.instagram.com/baitatrendoficial/" target="_blank" rel="noopener">Instagram @baitatrendoficial</a>
       <a href="https://www.tiktok.com/@baitatrendoficial" target="_blank" rel="noopener">TikTok @baitatrendoficial</a>
     </div>
-    <p>Baita Trend escolhe um produto em alta por semana a partir das buscas e vendas no TikTok, Google e nas lojas online. Os links são de afiliado: recebemos comissão pelas compras feitas por eles, sem custo extra para você. Preços e estoque podem mudar na loja.</p>
-  </footer>
-</div>
+    <p>Baita Trend escolhe um produto em alta por semana a partir das buscas e vendas no TikTok, no Google e nas lojas online. Os links são de afiliado: recebemos comissão pelas compras feitas por eles, sem custo extra para você. Preços e estoque podem mudar na loja.</p>
+  </div>
+</footer>
 
 <script src="dados.js"></script>
 <script src="vitrine.js"></script>
 <script>
-/* Os dados da semana vêm de dados.js, gerado por automacao/atualizar_site.py a partir de dados.json */
-const SEMANA_ATUAL = window.BAITA.semana_atual;
-const HISTORICO = window.BAITA.historico;
-
+/* Dados da semana: dados.js (gerado por automacao/atualizar_site.py). Vitrine: vitrine.js. */
+const S = window.BAITA.semana_atual;
+const HIST = window.BAITA.historico || [];
 const MESES = ['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
 const dt = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
 const curta = s => { const d = dt(s); return d.getDate() + ' ' + MESES[d.getMonth()].slice(0,3); };
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const na = loja => (loja === 'Mercado Livre' ? 'no ' : 'na ') + loja;
 
-const icones = {
-  card: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 15h8M8 11h5"/></svg>',
-  video: '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="M16 10l5-3v10l-5-3"/></svg>'
-};
+function estrelas(n, tam){
+  const s = el('span','estrelas'); s.setAttribute('aria-hidden','true');
+  for (let i = 1; i <= 5; i++){
+    const cheio = n >= i - 0.25;
+    s.insertAdjacentHTML('beforeend', `<svg width="${tam}" height="${tam}" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.2 6.6.7-5 4.5 1.4 6.6L12 17.2 6.1 20.5l1.4-6.6-5-4.5 6.6-.7z" fill="${cheio ? '#FF5A1F' : '#EADFD6'}"/></svg>`);
+  }
+  return s;
+}
+
+/* menu do celular */
+const btn = document.getElementById('abrir-menu'), menu = document.getElementById('menu');
+btn.addEventListener('click', () => { const a = menu.classList.toggle('aberto'); btn.setAttribute('aria-expanded', String(a)); btn.setAttribute('aria-label', a ? 'Fechar menu' : 'Abrir menu'); });
+menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.remove('aberto'); btn.setAttribute('aria-expanded','false'); }));
 
 function destaque(s){
-  document.getElementById('semana-num').textContent = 'Semana ' + s.numero;
+  const tr = document.getElementById('trilha');
+  tr.append(document.createTextNode('Destaque da semana ' + s.numero + ' › '), el('strong', null, s.produto));
   document.getElementById('semana-datas').textContent = curta(s.inicio) + ' – ' + curta(s.fim);
-  document.getElementById('exemplo').hidden = !s.exemplo;
+  if (s.vendidos) document.getElementById('vendidos').textContent = s.vendidos + ' vendidos ' + na(s.loja);
   document.getElementById('titulo-destaque').textContent = s.produto;
-  document.getElementById('porque').textContent = s.porque;
   document.getElementById('preco').textContent = s.preco;
+  document.getElementById('preco-nota').textContent = 'Preço consultado ' + na(s.loja) + '. Pode mudar.';
+  document.getElementById('porque').textContent = s.porque;
+
   const fotos = (s.fotos && s.fotos.length) ? s.fotos : (s.foto ? [s.foto] : []);
   const caixa = document.getElementById('foto'), minis = document.getElementById('miniaturas');
-  const mostrar = (n) => {
+  const mostrar = n => {
     const im = document.createElement('img'); im.src = fotos[n]; im.alt = s.produto + ', foto ' + (n + 1); im.referrerPolicy = 'no-referrer';
     caixa.replaceChildren(im);
     [...minis.children].forEach((b, k) => b.setAttribute('aria-pressed', String(k === n)));
   };
   if (fotos.length){
     if (fotos.length > 1) fotos.forEach((f, n) => {
-      const b = document.createElement('button'); b.type = 'button'; b.id = 'foto-' + n; b.setAttribute('aria-label', 'Ver foto ' + (n + 1));
+      const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', 'Ver foto ' + (n + 1));
       const t = document.createElement('img'); t.src = f; t.alt = ''; t.loading = 'lazy'; t.referrerPolicy = 'no-referrer'; b.append(t);
-      b.addEventListener('click', () => mostrar(n)); minis.append(b);
+      b.addEventListener('click', () => mostrar(n)); b.addEventListener('mouseenter', () => mostrar(n)); minis.append(b);
     });
+    else minis.hidden = true;
     mostrar(0);
   }
-  if (s.nota || s.vendidos){
+
+  if (s.nota){
     const p = document.getElementById('prova'); p.hidden = false;
-    if (s.nota){ const n = parseFloat(String(s.nota).replace(',', '.'));
-      const e = el('span','estrelas', '★★★★★'.slice(0, Math.round(n)) + '☆☆☆☆☆'.slice(0, 5 - Math.round(n))); e.setAttribute('aria-hidden','true');
-      p.append(e, el('strong','num', String(s.nota)), el('span', null, 'de 5 nas avaliações da ' + s.loja)); }
-    if (s.vendidos) p.append(el('span','num', s.vendidos + ' vendidos'));
+    const n = parseFloat(String(s.nota).replace(',', '.'));
+    p.append(el('span','nota num', String(s.nota)), estrelas(n, 18), el('span', null, 'nas avaliações ' + (s.loja === 'Mercado Livre' ? 'do ' : 'da ') + s.loja));
   }
+  const link = document.getElementById('link'); link.href = s.link; link.textContent = 'Comprar ' + na(s.loja);
+  if (s.video_loja){ const v = document.getElementById('video-loja'); v.hidden = false; v.href = s.video_loja; v.textContent = 'Ver vídeo e avaliações ' + na(s.loja); }
+
   const ul = document.getElementById('beneficios');
-  (s.beneficios || []).forEach(b => { const li = el('li'); li.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15120E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>'; li.append(document.createTextNode(b)); ul.append(li); });
-  const v = document.getElementById('video');
-  if (s.video_tiktok){
-    const f = document.createElement('iframe'); f.className = 'tiktok'; f.title = 'Vídeo do Baita Trend no TikTok';
-    f.src = 'https://www.tiktok.com/embed/v2/' + s.video_tiktok; f.loading = 'lazy'; f.allow = 'encrypted-media; fullscreen'; v.append(f);
-  }
-  if (s.video_loja){
-    const a = el('a','botao claro','Ver vídeo e avaliações na ' + s.loja); a.href = s.video_loja; a.target = '_blank'; a.rel = 'sponsored noopener'; v.append(a);
-  }
-  const link = document.getElementById('link');
-  link.href = s.link;
-  link.firstChild.textContent = 'Ver na ' + s.loja + ' ';
+  (s.beneficios || []).forEach(b => { const li = el('li'); li.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FF5A1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l4 4 10-10"/></svg>'; li.append(document.createTextNode(b)); ul.append(li); });
   const box = document.getElementById('sinais');
-  s.sinais.forEach(x => { const c = el('div','sinal'); c.append(el('strong','num',x.valor), el('span',null,x.fonte)); box.append(c); });
+  (s.sinais || []).forEach(x => { const c = el('div','sinal'); c.append(el('strong','num',x.valor), el('span',null,x.fonte)); box.append(c); });
 }
 
-function semana(s){
-  const box = document.getElementById('dias');
-  const hoje = new Date(); hoje.setHours(0,0,0,0);
-  const ini = dt(s.inicio);
-  s.posts.forEach((p, i) => {
-    const data = new Date(ini); data.setDate(ini.getDate() + i);
-    const c = el('article','dia');
-    if (+data === +hoje) c.classList.add('hoje');
-    c.append(el('span','d', p.dia + ' ' + data.getDate()));
-    const f = el('span','formato'); f.innerHTML = icones[p.formato] + (p.formato === 'video' ? 'Vídeo' : 'Card'); c.append(f);
-    c.append(el('p', null, p.tema));
-    const passou = data < hoje;
-    c.append(el('span', 'estado ' + (passou ? 'feito' : 'vem'), passou ? 'Publicado' : (+data === +hoje ? 'Hoje' : 'Em breve')));
-    box.append(c);
-  });
-}
-
-let filtroAtual = 'todos';
 function arquivo(){
   const box = document.getElementById('arquivo');
-  const filtros = document.getElementById('filtros');
-  box.replaceChildren(); filtros.replaceChildren();
-  if (!HISTORICO.length){
-    filtros.hidden = true;
+  if (!HIST.length){
     const v = el('div','vazio');
-    v.append(el('strong',null,'O histórico começa na primeira semana.'),
-             el('p',null,'Cada produto que passar pelo destaque fica guardado aqui, agrupado por mês, com o preço da época e o link.'));
+    v.append(el('strong',null,'O histórico começa depois da primeira semana.'),
+             el('p',null,'Cada produto que passar pelo destaque fica guardado aqui, com o preço da época e o link.'));
     box.append(v); return;
   }
-  const grupos = new Map();
-  HISTORICO.forEach(h => { const d = dt(h.inicio); const k = d.getFullYear() + '-' + d.getMonth(); if (!grupos.has(k)) grupos.set(k, { nome: MESES[d.getMonth()] + ' ' + d.getFullYear(), itens: [] }); grupos.get(k).itens.push(h); });
-  filtros.hidden = false;
-  [['todos','Todos'], ...[...grupos].map(([k,g]) => [k, g.nome])].forEach(([k, nome]) => {
-    const b = el('button','filtro', nome.charAt(0).toUpperCase() + nome.slice(1));
-    b.type = 'button'; b.id = 'filtro-' + k;
-    b.setAttribute('aria-pressed', String(k === filtroAtual));
-    b.addEventListener('click', () => { filtroAtual = k; arquivo(); });
-    filtros.append(b);
+  const l = el('div','lista');
+  HIST.forEach(h => {
+    const c = el('article','item');
+    c.append(el('span','quando num','Semana ' + h.numero + ' · ' + curta(h.inicio) + ' – ' + curta(h.fim)), el('span','nome',h.produto), el('span','num',h.preco));
+    const a = el('a', null, 'Ver ' + na(h.loja)); a.href = h.link; a.target = '_blank'; a.rel = 'sponsored noopener'; c.append(a);
+    l.append(c);
   });
-  grupos.forEach((g, k) => {
-    if (filtroAtual !== 'todos' && filtroAtual !== k) return;
-    const m = el('div','mes'); m.append(el('h3', null, g.nome.charAt(0).toUpperCase() + g.nome.slice(1)));
-    const l = el('div','lista');
-    g.itens.forEach(h => {
-      const c = el('article','item');
-      c.append(el('span','rotulo num','Semana ' + h.numero + ' · ' + curta(h.inicio) + ' – ' + curta(h.fim)), el('span','nome',h.produto), el('span','num',h.preco));
-      const a = el('a', null, 'Ver na ' + h.loja); a.href = h.link; a.target = '_blank'; a.rel = 'sponsored noopener'; c.append(a);
-      l.append(c);
-    });
-    m.append(l); box.append(m);
-  });
+  box.append(l);
 }
-
-destaque(SEMANA_ATUAL);
-semana(SEMANA_ATUAL);
-arquivo();
 
 let vitFiltro = 'Todas';
 function vitrine(){
@@ -362,27 +344,36 @@ function vitrine(){
   const grade = document.getElementById('vit-grade'), filtros = document.getElementById('vit-filtros');
   grade.replaceChildren(); filtros.replaceChildren();
   ['Todas', ...V.categorias].forEach(c => {
-    const b = el('button','filtro', c); b.type = 'button'; b.id = 'vit-' + c.toLowerCase().replace(/\W+/g,'-');
+    const b = el('button','chip', c); b.type = 'button';
     b.setAttribute('aria-pressed', String(c === vitFiltro));
     b.addEventListener('click', () => { vitFiltro = c; vitrine(); });
     filtros.append(b);
   });
   V.itens.filter(i => vitFiltro === 'Todas' || i.categoria === vitFiltro).forEach(i => {
-    const c = el('article','vit-item');
-    const f = el('div','vit-foto');
-    if (i.img){ const im = document.createElement('img'); im.src = i.img; im.alt = i.nome; im.loading = 'lazy'; im.referrerPolicy = 'no-referrer'; im.onerror = () => { im.remove(); f.textContent = 'Foto na loja'; }; f.append(im); }
-    else { f.classList.add('vit-sem-foto'); f.textContent = 'Foto e avaliações na ' + i.loja; }
-    const b = el('div','vit-corpo');
-    b.append(el('span','vit-cat', i.categoria), el('span','vit-nome', i.nome), el('span','vit-prova num', (i.nota ? '★ ' + i.nota.replace('.', ',') + ' · ' : '') + (i.vendas ? i.vendas + ' vendidos ' + (i.loja === 'Mercado Livre' ? 'no ' : 'na ') + i.loja : i.destaque)));
-    const r = el('div','vit-rodape'); r.append(i.preco ? el('span','vit-preco num', i.preco) : el('span','vit-preco-loja', 'Preço na ' + i.loja));
-    const a = el('a','vit-link','Ver avaliações e comprar'); a.href = i.link; a.target = '_blank'; a.rel = 'sponsored noopener';
-    r.append(a); b.append(r); c.append(f, b); grade.append(c);
+    const c = el('a','card'); c.href = i.link; c.target = '_blank'; c.rel = 'sponsored noopener';
+    c.setAttribute('aria-label', i.nome + (i.preco ? ', ' + i.preco : '') + ', ver ' + na(i.loja));
+    const f = el('div','card-foto');
+    const semFoto = () => { f.classList.add('card-sem-foto'); f.textContent = 'Foto e avaliações ' + na(i.loja); };
+    if (i.img){ const im = document.createElement('img'); im.src = i.img; im.alt = ''; im.loading = 'lazy'; im.referrerPolicy = 'no-referrer'; im.onerror = () => { im.remove(); semFoto(); }; f.append(im); }
+    else semFoto();
+    const b = el('div','card-corpo');
+    b.append(i.preco ? el('span','card-preco num', i.preco) : el('span','card-preco loja', 'Ver preço ' + na(i.loja)));
+    b.append(el('span','card-nome', i.nome));
+    const p = el('span','card-prova num');
+    if (i.nota){ const n = parseFloat(String(i.nota).replace(',', '.')); p.append(estrelas(n, 13), document.createTextNode(String(i.nota).replace('.', ','))); }
+    if (i.vendas) p.append(document.createTextNode((i.nota ? ' · ' : '') + i.vendas + ' vendidos'));
+    if (!i.nota && !i.vendas && i.destaque) p.append(document.createTextNode(i.destaque));
+    b.append(p);
+    const r = el('div','card-loja'); r.append(el('span','l', i.loja), el('span','v', i.categoria));
+    b.append(r); c.append(f, b); grade.append(c);
   });
   const d = dt(V.consultado_em);
   document.getElementById('vit-nota').textContent = 'Preços, vendas e listas de mais vendidos consultados nas lojas em ' + d.getDate() + ' de ' + MESES[d.getMonth()] + '. Podem ter mudado. #publi: links de afiliado.';
 }
-vitrine();
-</script>
 
+destaque(S);
+vitrine();
+arquivo();
+</script>
 </body>
 </html>

@@ -80,7 +80,7 @@ def cena_final(s, n_frames):
         d.text((80, y), ln, font=fonte(800, 104), fill=TIN)
         y += 110
     d.text((80, y + 50), s["preco"], font=fonte(800, 150), fill=PAP)
-    d.text((80, y + 260), "Link na bio", font=fonte(800, 72), fill=TIN)
+    d.text((80, y + 260), "baitatrend.com.br", font=fonte(800, 72), fill=TIN)
     d.text((80, H - 260), "#publi · link de afiliado", font=fonte(500, 44), fill=TIN)
     d.text((80, H - 190), HANDLE, font=fonte(500, 44), fill=TIN)
     return [fr] * n_frames

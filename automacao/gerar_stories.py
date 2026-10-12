@@ -97,7 +97,7 @@ def story(foto, etiqueta, titulo, apoio, preco, cor_fundo=PAP, destaque=None):
     fp = fonte(800, 64)
     d.text((112, yb + 38), preco, font=fp, fill=TIN)
     fl = fonte(800, 50)
-    t = "Link na bio"
+    t = "baitatrend.com.br"
     d.text((W - 112 - d.textlength(t, font=fl), yb + 48), t, font=fl, fill=TIN)
     fpub = fonte(500, 32)
     d.text((72, yb + 175), "#publi · link de afiliado", font=fpub, fill=SUA if not escuro else "#B4A898")
@@ -125,19 +125,19 @@ def main():
     plano = {
         "Seg": [("Destaque da semana", prod, "O produto que está em alta agora.", PAP, None),
                 ("Por que está em alta", maiuscula(sinal["fonte"]), None, TIN, sinal["valor"]),
-                ("Fica até domingo", "7 dias como destaque do Baita Trend", "O link está na bio.", PAP, None)],
+                ("Fica até domingo", "7 dias como destaque do Baita Trend", "Link no perfil: baitatrend.com.br", PAP, None)],
         "Ter": [("Bom dia", prod, ben[0], PAP, None),
                 ("Quem comprou aprovou", prova, None, TIN, None),
-                ("Ainda dá tempo", "6 dias como destaque", "O link está na bio.", PAP, None)],
+                ("Ainda dá tempo", "6 dias como destaque", "Link no perfil: baitatrend.com.br", PAP, None)],
         "Qua": [("Bom dia", prod, ben[1 % len(ben)], PAP, None),
                 ("Por que está em alta", maiuscula(s["sinais"][1]["fonte"]), None, TIN, s["sinais"][1]["valor"] if len(s["sinais"][1]["valor"]) <= 6 else None),
-                ("Ainda dá tempo", "5 dias como destaque", "O link está na bio.", PAP, None)],
+                ("Ainda dá tempo", "5 dias como destaque", "Link no perfil: baitatrend.com.br", PAP, None)],
         "Qui": [("Bom dia", prod, ben[2 % len(ben)], PAP, None),
                 ("Detalhe que faz diferença", ben[3 % len(ben)], None, TIN, None),
-                ("Ainda dá tempo", "4 dias como destaque", "O link está na bio.", PAP, None)],
+                ("Ainda dá tempo", "4 dias como destaque", "Link no perfil: baitatrend.com.br", PAP, None)],
         "Sex": [("Sextou", prod, ben[4 % len(ben)], PAP, None),
                 ("Quem comprou aprovou", prova, None, TIN, None),
-                ("Fim de semana chegando", "3 dias como destaque", "O link está na bio.", PAP, None)],
+                ("Fim de semana chegando", "3 dias como destaque", "Link no perfil: baitatrend.com.br", PAP, None)],
         "Sáb": [("Bom dia", prod, ben[0], PAP, None),
                 ("Antes de comprar", "Confira as avaliações com foto no anúncio", None, TIN, None),
                 ("Amanhã é o último dia", prod, "Depois ele sai do destaque.", PAP, None)],
@@ -161,7 +161,7 @@ def main():
             "data": f"{dt.isoformat()}T{HORA_TIKTOK}:00",
             "arquivo": f"stories/{NOMES[dia]}-2.png",
             "titulo": f"{prod}: {etq.lower()}"[:90],
-            "texto": f"{tit}. {prod} por {preco}, link na bio.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta",
+            "texto": f"{tit}. {prod} por {preco}, link no perfil: baitatrend.com.br\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta",
         })
     with open(os.path.join(saida, "reforco.json"), "w", encoding="utf-8") as fp:
         json.dump(reforco, fp, ensure_ascii=False, indent=2)

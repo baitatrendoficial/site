@@ -128,7 +128,7 @@ def capa_video(v, nome, saida, estilo):
     f, tam = ajusta(d, v["titulo"], 800, 120, 936, 2)
     y = bloco(d, 72, 776, v["titulo"], f, txt, 936, int(tam * 0.9))
     bloco(d, 72, y + 24, v["subtitulo"], fonte(500, 38), CLARO if escuro else TIN, 936, 48)
-    rodape(d, "#publi · link na bio", CIN if escuro else TIN, txt, LINHA_ESC if escuro else TIN)
+    rodape(d, "#publi · baitatrend.com.br", CIN if escuro else TIN, txt, LINHA_ESC if escuro else TIN)
     salvar(img, os.path.join(saida, nome))
 
 
@@ -175,7 +175,7 @@ def card_checklist(s, saida):
                 d.text((164 * S, yy * S), ln, font=fr, fill=PAP)
             yy += 50
         y = yy + 30
-    rodape(d, "O destaque da semana tem link na bio · #publi", CIN, PAP, LINHA_ESC)
+    rodape(d, "Link do destaque: baitatrend.com.br · #publi", CIN, PAP, LINHA_ESC)
     salvar(img, os.path.join(saida, "5-sex-antes-de-comprar.png"))
 
 
