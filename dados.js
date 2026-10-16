@@ -1,47 +1,49 @@
 window.BAITA = {
   "semana_atual": {
     "exemplo": false,
-    "numero": 1,
-    "inicio": "2026-10-12",
-    "fim": "2026-10-18",
-    "produto": "Guarda-chuva automático reforçado",
-    "porque": "Abre e fecha com um botão, tem varetas reforçadas com fibra de vidro e mede 33 cm fechado, então cabe na bolsa. Com outubro prometendo chuva acima da média no Sul e no Sudeste, as buscas por guarda-chuva dobraram desde julho.",
+    "numero": 2,
+    "inicio": "2026-10-19",
+    "fim": "2026-10-25",
+    "produto": "Ventilador de mesa Mondial Super Power 30 cm",
+    "porque": "É o ventilador mais vendido da categoria Ar e Ventilação do Mercado Livre, com mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. Tem hélice de 30 cm com 6 pás, 3 velocidades, oscilação e inclinação. Com o Inmet prevendo outubro mais quente que o normal, as buscas por ventilador no Google subiram 73% desde julho.",
     "sinais": [
       {
-        "valor": "2x",
-        "fonte": "buscas por guarda-chuva no Google desde julho"
+        "valor": "+73%",
+        "fonte": "buscas por ventilador no Google, de julho para outubro"
       },
       {
-        "valor": "Acima da média",
-        "fonte": "chuva prevista para outubro no Sul e Sudeste"
+        "valor": "317k",
+        "fonte": "views em um vídeo deste ventilador no TikTok"
       },
       {
-        "valor": "RS",
-        "fonte": "estado que mais procura guarda-chuva"
+        "valor": "1º",
+        "fonte": "mais vendido em Ar e Ventilação no Mercado Livre"
       }
     ],
-    "preco": "R$ 27,00",
-    "link": "https://s.shopee.com.br/9fLW5xRxSL",
-    "loja": "Shopee",
+    "preco": "R$ 140,56",
+    "link": "https://meli.la/28Muzpv",
+    "loja": "Mercado Livre",
     "foto": null,
     "fotos": [
-      "https://down-br.img.susercontent.com/file/sg-11134201-7ratq-ma319xguvrkp75",
-      "https://down-br.img.susercontent.com/file/sg-11134201-7ratj-ma319zs3hxu94c",
-      "https://down-br.img.susercontent.com/file/sg-11134201-7ravd-ma31a1cp8j36ab",
-      "https://down-br.img.susercontent.com/file/sg-11134201-7rau9-ma31a384geak0d",
-      "https://down-br.img.susercontent.com/file/sg-11134201-7ratz-ma31a4ytwp0i6b"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_620576-MLA99958768953_112025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_683161-MLA119271161009_102026-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_851851-MLA88339985627_072025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_857413-MLA88079387344_072025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_615016-MLA88419803767_072025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_789360-MLA88079337928_072025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_948550-MLA105448120021_012026-F.jpg"
     ],
     "nota": "4,8",
-    "vendidos": "20 mil+",
+    "vendidos": "+500 mil",
     "beneficios": [
-      "Abre com um clique e fecha com outro, dá para usar com uma mão só",
-      "10 varetas de metal com reforço de fibra de vidro para aguentar vento",
-      "Tecido com camada blackout que bloqueia o sol e seca rápido",
-      "33 cm fechado, cabe na bolsa ou na mochila; 1 m de diâmetro aberto",
-      "Leve, com 435 g, alça de pulso e capinha de proteção"
+      "Hélice de 30 cm com 6 pás e 60 W de potência",
+      "3 velocidades e oscilação horizontal para espalhar o ar",
+      "Inclinação vertical regulável para mirar o vento",
+      "Nível de ruído de 40 dB, segundo a ficha técnica",
+      "Alça de transporte e grade removível; 49 cm de altura e 1,6 kg"
     ],
     "video_tiktok": null,
-    "video_loja": "https://s.shopee.com.br/9fLW5xRxSL",
+    "video_loja": "https://meli.la/28Muzpv",
     "posts": [
       {
         "dia": "Seg",
@@ -51,7 +53,7 @@ window.BAITA = {
       {
         "dia": "Ter",
         "formato": "video",
-        "tema": "Abre. Fecha. Guarda."
+        "tema": "Por que vende tanto?"
       },
       {
         "dia": "Qua",
@@ -61,7 +63,7 @@ window.BAITA = {
       {
         "dia": "Qui",
         "formato": "video",
-        "tema": "Teste do vento."
+        "tema": "Cabe na sua mesa?"
       },
       {
         "dia": "Sex",
@@ -71,7 +73,7 @@ window.BAITA = {
       {
         "dia": "Sáb",
         "formato": "video",
-        "tema": "Fechado, ele cabe em…"
+        "tema": "Quanto gasta de luz?"
       },
       {
         "dia": "Dom",
@@ -80,5 +82,15 @@ window.BAITA = {
       }
     ]
   },
-  "historico": []
+  "historico": [
+    {
+      "numero": 1,
+      "inicio": "2026-10-12",
+      "fim": "2026-10-18",
+      "produto": "Guarda-chuva automático reforçado",
+      "preco": "R$ 27,00",
+      "link": "https://s.shopee.com.br/9fLW5xRxSL",
+      "loja": "Shopee"
+    }
+  ]
 };
