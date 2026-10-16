@@ -20,6 +20,7 @@ Mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. O que explica? Hélice
 Link no perfil: baitatrend.com.br
 
 #baitatrend #ventilador #calor #achadinhos
+Cena ilustrativa gerada por IA.
 #publi Link de afiliado.
 
 ## Qua · Por que está em alta (Card, 12h)
@@ -79,14 +80,12 @@ Link no perfil: baitatrend.com.br
 
 ## Roteiros dos vídeos
 
-### Ter · Por que vende tanto? (15 segundos)
+### Ter · Por que vende tanto? (13 segundos)
 
-- 0–2 s · foto do ventilador de frente · texto: +500 mil vendidos no Mercado Livre
-- 2–5 s · ventilador na sala ao lado de uma mulher lendo · texto: Nota 4,8 em 200 mil opiniões
-- 5–7 s · ventilador de lado mostrando a inclinação · texto: Inclina para mirar o vento
-- 7–10 s · ventilador de lado com o botão de oscilação · texto: Oscila e marca 40 dB de ruído
-- 10–12 s · detalhe da alça e do botão de velocidade · texto: 3 velocidades e alça para levar
-- 12–15 s · card final do Baita Trend com preço e #publi
+- 0–3 s · cena de IA: ventilador ligado na sala, hélice girando · texto: +500 mil vendidos no Mercado Livre
+- 3–7 s · cena de IA: ventilador oscilando, cortina mexendo com o vento · texto: Nota 4,8 em 200 mil opiniões
+- 7–10 s · cena de IA: ventilador de lado, oscilando · texto: Oscila para espalhar o vento
+- 10–13 s · card final do Baita Trend com preço e #publi
 
 ### Qui · Cabe na sua mesa? (15 segundos)
 
