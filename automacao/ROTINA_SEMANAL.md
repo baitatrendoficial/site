@@ -17,7 +17,10 @@ Objetivo: 1 produto com **três sinais** ao mesmo tempo.
    e da Amazon Brasil.
 
 Filtros obrigatórios:
-- Preço entre R$ 20 e R$ 200, nota ≥ 4,5, pelo menos 1 mil vendidos no anúncio escolhido.
+- Preço de preferência entre R$ 60 e R$ 150 (aceita R$ 40 a R$ 250 se os sinais forem muito fortes), nota ≥ 4,5,
+  pelo menos 1 mil vendidos no anúncio escolhido.
+- Comissão importa: compare a taxa de comissão no painel de afiliados e prefira produtos com comissão extra
+  (Shopee "Ofertas Exclusivas"/comissão extra da loja). Anote a taxa no resumo de aprovação.
 - Não repetir produto ou categoria das últimas 4 semanas (ver `dados.json` → `historico`).
 - Fora: remédios, suplementos, cosméticos com promessa de saúde, armas, itens adultos, apostas, réplicas de marca.
 - Preferir anúncio de loja oficial ou com muitas avaliações com foto.
@@ -34,7 +37,18 @@ Anote os números de cada sinal com a fonte. Eles vão para `sinais` e para o ca
 ## 3. Escrever a semana
 
 Crie `semanas/AAAA-sNN.json` copiando o formato de `semanas/2026-s01.json` (número = semana anterior + 1,
-`inicio` = segunda, `fim` = domingo). Regras de texto:
+`inicio` = segunda, `fim` = domingo).
+
+Formato que funcionou na semana 1 (dados do TikTok): post de **curiosidade** rende 2 a 5 vezes mais que post com cara
+de anúncio ("Por que todo mundo está procurando guarda-chuva" teve 562 views; o vídeo de produto teve 93).
+Então, na semana:
+- Ganchos e títulos em forma de curiosidade/notícia: "Por que todo mundo está comprando X", "O número que explica X",
+  "Vale ou não vale?", "O que ninguém te conta sobre X". O produto aparece no fim, não no começo.
+- Seg e Qua (cards): contexto/tendência com números e fonte. Sex: "vale ou não vale" (prós, contras, para quem é).
+- Vídeos (Ter/Qui/Sáb): primeira cena é a pergunta ou o número, não o nome do produto.
+- TikTok extra das 17h e stories da tarde: um dado curioso por dia.
+
+Regras de texto:
 - Português do Brasil, tom direto e amigável, sem exagero ("melhor do mundo", "imperdível").
 - Só afirmar o que está no anúncio ou nas fontes. Nada de "testamos" se não testamos.
 - Toda legenda de produto termina com `#publi Link de afiliado.` (exigência do CONAR). Quarta é o card de contexto.
