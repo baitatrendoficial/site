@@ -152,14 +152,17 @@ def main():
         dt = inicio + timedelta(days=i)
         for j, (etq, tit, apoio, fundo, dest) in enumerate(plano[dia]):
             arqp = f"{NOMES[dia]}-{j + 1}.png"
-            story(foto(k), etq, tit, apoio, preco, fundo, dest).save(os.path.join(pasta, arqp), optimize=True)
+            im = story(foto(k), etq, tit, apoio, preco, fundo, dest)
+            im.save(os.path.join(pasta, arqp), optimize=True)
+            if j == 1:  # o TikTok só aceita foto em JPEG ou WebP
+                im.save(os.path.join(pasta, arqp[:-4] + ".jpg"), quality=90)
             k += 1
             reforco["stories"].append({"data": f"{dt.isoformat()}T{HORAS[j]}:00", "arquivo": f"stories/{arqp}"})
         # TikTok extra do dia: o story da tarde como foto, com música e legenda curta
         etq, tit = plano[dia][1][0], plano[dia][1][1]
         reforco["tiktok_extra"].append({
             "data": f"{dt.isoformat()}T{HORA_TIKTOK}:00",
-            "arquivo": f"stories/{NOMES[dia]}-2.png",
+            "arquivo": f"stories/{NOMES[dia]}-2.jpg",
             "titulo": f"{prod}: {etq.lower()}"[:90],
             "texto": f"{tit}. {prod} por {preco}, link no perfil: baitatrend.com.br\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta",
         })

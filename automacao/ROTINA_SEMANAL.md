@@ -89,7 +89,7 @@ Pare aqui e espere. Se ele pedir ajuste, ajuste e mande de novo.
 
    b) Reforço, a partir de `saida/AAAA-sNN/reforco.json`:
    - `stories`: 21 stories (9h, 15h, 21h), só Instagram, `instagramData.type: STORY`, sem texto.
-   - `tiktok_extra`: 1 TikTok por dia às 17h (foto do story da tarde), com `title`, `text` e `autoAddMusic: true`.
+   - `tiktok_extra`: 1 TikTok por dia às 17h (foto do story da tarde, em .jpg: o TikTok recusa PNG), com `title`, `text` e `autoAddMusic: true`.
 
    Confira depois com `getScheduledPosts` que entraram 35 itens (7 + 21 + 7).
 3. Se o Metricool recusar por limite do plano, pare e avise o Cassiano com as opções (plano pago, só uma rede, manual).
