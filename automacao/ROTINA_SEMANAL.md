@@ -114,6 +114,26 @@ Pare aqui e espere. Se ele pedir ajuste, ajuste e mande de novo.
 3. Se o Metricool recusar por limite do plano, pare e avise o Cassiano com as opções (plano pago, só uma rede, manual).
 4. Mostre a agenda da semana preenchida e encerre.
 
+## 7. Produtos de teste (4 por dia, desde 19/10/2026)
+
+Além do destaque, 4 produtos de teste por dia, só TikTok (foto) + 1 story no Instagram cada. Objetivo: tentativa e erro
+medida. O melhor teste da semana (views no TikTok + cliques no relatório da Shopee) vira candidato a destaque.
+
+1. Shopee Afiliados → Oferta de produto (abas Todos / Melhor performance / categorias). Filtros: nota ≥ 4,5,
+   1 mil+ vendidos, comissão estimada ≥ R$ 3 por venda (ver "Canal mais usado" no detalhe), sem suplemento,
+   remédio, cosmético com promessa, réplica ou foto com marca de terceiro (ex.: fone com caixa de marca famosa).
+   Variar categorias. Não repetir produto de testes das últimas 2 semanas.
+2. Links: Link personalizado, até 5 URLs `https://shopee.com.br/product/<shopid>/<itemid>` por vez,
+   Sub_id 1 = `teste`, Sub_id 2 = `semanaNN`.
+3. `testes/AAAA-sNN.json` (formato de `testes/2026-s02.json`): data, id, nome, preço, nota, vendas, comissão,
+   link, img, categoria, gancho (curiosidade com número real do anúncio) e apoio. Envie ao GitHub, espere o
+   workflow de fotos, `git pull` e rode `python3 automacao/gerar_testes.py testes/AAAA-sNN.json`
+   (gera `saida/testes-AAAA-sNN/<id>.jpg`, `agenda.json` e a seção "Testando agora" da vitrine).
+4. Horários: 4 por dia fora do horário do post principal (ex.: 9h/10h, 14h, 17h, 21h). O TikTok extra das 17h
+   do destaque é substituído pelo teste. Stories dos testes 30 min depois quando bater com story do destaque.
+5. Toda sexta, no resumo de aprovação: tabela dos testes da semana com views (Metricool, TKPO*) e cliques
+   (Shopee → Relatório de cliques, Sub_id `teste`). Proponha o vencedor como destaque ou mais testes parecidos.
+
 ## Decisões
 
 - Selo "Parceria paga" (Conteúdo comercial) no TikTok: **sempre desligado** (decisão do Cassiano em 12/10/2026).
