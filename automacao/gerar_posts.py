@@ -110,7 +110,7 @@ def card_destaque(s, saida):
         x += tw / S + 64
     d.line([72 * S, 1164 * S, 1008 * S, 1164 * S], fill=TIN, width=3 * S)
     d.text((72 * S, 1184 * S), s["preco"], font=fonte(800, 56), fill=TIN)
-    d.text((72 * S, 1254 * S), "#publi · link de afiliado na bio", font=fonte(500, 26), fill=TIN)
+    d.text((72 * S, 1254 * S), "#publi · link no perfil: baitatrend.com.br", font=fonte(500, 26), fill=TIN)
     direita(d, 1008, 1220, HANDLE, fonte(500, 30), TIN)
     salvar(img, os.path.join(saida, "1-seg-destaque.png"))
 
@@ -190,7 +190,7 @@ def card_ultima(s, saida):
     f, tam = ajusta(d, s["produto"], 800, 50, 580, 3)
     yy = bloco(d, 404, y + 50, s["produto"], f, TIN, 580, int(tam * 1.0))
     d.text((404 * S, (yy + 16) * S), s["preco"], font=fonte(800, 44), fill=LAR_TXT)
-    bloco(d, 80, 720, "O link continua na bio. Segunda que vem tem destaque novo.", fonte(500, 44), TIN, 920, 54)
+    bloco(d, 80, 720, "O link continua no perfil: baitatrend.com.br. Segunda que vem tem destaque novo.", fonte(500, 44), TIN, 920, 54)
     rodape(d, "#publi · link de afiliado", TIN, TIN, TIN)
     salvar(img, os.path.join(saida, "7-dom-ultima-chamada.png"))
 

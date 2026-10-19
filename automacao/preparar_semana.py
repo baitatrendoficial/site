@@ -56,6 +56,9 @@ def main():
     py = sys.executable
     subprocess.run([py, os.path.join(AQUI, "gerar_posts.py"), arq, saida], check=True)
     subprocess.run([py, os.path.join(AQUI, "gerar_videos.py"), arq, saida], check=True)
+    for v in s["videos"]:  # vídeo com cena de IA (campo "cena_ia") substitui o de fotos daquele dia
+        if v.get("cena_ia"):
+            subprocess.run([py, os.path.join(AQUI, "video_ia.py"), arq, os.path.join(saida, v["cena_ia"]), v["dia"]], check=True)
     subprocess.run([py, os.path.join(AQUI, "gerar_stories.py"), arq, saida], check=True)
     subprocess.run([py, os.path.join(AQUI, "atualizar_site.py"), arq], check=True)
     print(f"Pronto: posts, vídeos, stories e reforco.json em saida/{nome}/, site atualizado (dados.js).")

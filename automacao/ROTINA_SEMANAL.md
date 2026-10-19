@@ -55,6 +55,11 @@ Regras de texto:
 - Nunca escreva "link na bio": o TikTok ainda não tem link clicável. Use "Link no perfil: baitatrend.com.br".
 - Não copiar avaliações de compradores nem vídeos do vendedor. Fotos do anúncio vão em `fotos_site` (URLs diretas).
 - Os vídeos usam as fotos do produto com legendas; o roteiro só pode descrever o que a foto mostra.
+- Cena de IA (opcional, aprovada pelo Cassiano em 16/10/2026): gere no Gemini (Vídeos, Retrato 9:16) a partir de uma
+  foto do anúncio sem pessoas, com prompt curto (o Gemini recusa prompt longo com "mantenha o logo idêntico" e foto com pessoa).
+  Confira quadro a quadro que o produto não ganhou peças/funções que não tem. Salve em `saida/AAAA-sNN/ia-*.mp4`,
+  ponha `"cena_ia"` no vídeo do dia no JSON (o `preparar_semana.py` chama `video_ia.py`). O vídeo leva o aviso
+  "Cena ilustrativa gerada por IA", a legenda também, e no TikTok o selo "Conteúdo gerado por IA" fica LIGADO.
 - Atualize também a vitrine se algum produto dela saiu do ar.
 
 ## 4. Gerar e conferir
