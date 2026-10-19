@@ -65,8 +65,10 @@ def story(foto, etiqueta, titulo, apoio, preco, cor_fundo=PAP, destaque=None):
     alt_foto = 560 if destaque else 760
     if foto:
         f = Image.open(foto).convert("RGB")
-        lado = min(f.size)
-        f = f.crop(((f.width - lado) // 2, (f.height - lado) // 2, (f.width + lado) // 2, (f.height + lado) // 2)).resize((936, alt_foto))
+        # recorta no formato da caixa (936 x alt_foto) sem esticar a foto
+        prop = 936 / alt_foto
+        w, h = (f.width, round(f.width / prop)) if f.width / f.height < prop else (round(f.height * prop), f.height)
+        f = f.crop(((f.width - w) // 2, (f.height - h) // 2, (f.width + w) // 2, (f.height + h) // 2)).resize((936, alt_foto))
         m = Image.new("L", f.size, 0)
         ImageDraw.Draw(m).rounded_rectangle([0, 0, f.width, f.height], radius=48, fill=255)
         im.paste(f, (72, y), m)
