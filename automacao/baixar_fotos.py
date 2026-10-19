@@ -18,3 +18,17 @@ for arq in sorted(glob.glob(os.path.join(RAIZ, "semanas", "*.json"))):
         with urllib.request.urlopen(req, timeout=30) as r, open(destino, "wb") as fp:
             fp.write(r.read())
         print("baixou", destino)
+
+# Produtos de teste (testes/*.json): uma foto por produto em testes/fotos/<semana>/<id>.jpg
+for arq in sorted(glob.glob(os.path.join(RAIZ, "testes", "*.json"))):
+    t = json.load(open(arq, encoding="utf-8"))
+    pasta = os.path.join(RAIZ, "testes", "fotos", os.path.splitext(os.path.basename(arq))[0])
+    for it in t.get("itens", []):
+        destino = os.path.join(pasta, f"{it['id']}.jpg")
+        if os.path.exists(destino) or not it.get("img"):
+            continue
+        os.makedirs(pasta, exist_ok=True)
+        req = urllib.request.Request(it["img"], headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=30) as r, open(destino, "wb") as fp:
+            fp.write(r.read())
+        print("baixou", destino)
