@@ -52,6 +52,7 @@ Regras de texto:
 - Português do Brasil, tom direto e amigável, sem exagero ("melhor do mundo", "imperdível").
 - Só afirmar o que está no anúncio ou nas fontes. Nada de "testamos" se não testamos.
 - Toda legenda de produto termina com `#publi Link de afiliado.` (exigência do CONAR). Quarta é o card de contexto.
+- Toda legenda (posts, testes, extras) leva, antes das hashtags: "Segue o @baitatrendoficial: todo dia tem achado novo por aqui." (pedido do Cassiano em 20/10/2026, meta: 1.000 seguidores no TikTok para liberar link clicável).
 - Nunca escreva "link na bio": o TikTok ainda não tem link clicável. Use "Link no perfil: baitatrend.com.br".
 - Não copiar avaliações de compradores nem vídeos do vendedor. Fotos do anúncio vão em `fotos_site` (URLs diretas).
 - Os vídeos usam as fotos do produto com legendas; o roteiro só pode descrever o que a foto mostra.
@@ -122,7 +123,7 @@ medida. O melhor teste da semana (views no TikTok + cliques no relatório da Sho
 1. Shopee Afiliados → Oferta de produto (abas Todos / Melhor performance / categorias). Filtros: nota ≥ 4,5,
    1 mil+ vendidos, comissão estimada ≥ R$ 3 por venda (ver "Canal mais usado" no detalhe), sem suplemento,
    remédio, cosmético com promessa, réplica ou foto com marca de terceiro (ex.: fone com caixa de marca famosa).
-   Variar categorias. Não repetir produto de testes das últimas 2 semanas.
+   Variar categorias, mas priorizar casa e cozinha (melhor desempenho na semana 2) e ganchos em forma de pergunta. Não repetir produto de testes das últimas 2 semanas.
 2. Links: Link personalizado, até 5 URLs `https://shopee.com.br/product/<shopid>/<itemid>` por vez,
    Sub_id 1 = `teste`, Sub_id 2 = `semanaNN`.
 3. `testes/AAAA-sNN.json` (formato de `testes/2026-s02.json`): data, id, nome, preço, nota, vendas, comissão,
