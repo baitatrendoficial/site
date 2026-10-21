@@ -30,7 +30,7 @@ def main():
             "data": it["data"], "id": it["id"], "arquivo": f"{it['id']}.jpg",
             "titulo": it["gancho"][:90],
             "texto": f"{it['gancho']}\n\n{it['nome']} por {it['preco']} na {it['loja']}. {it['apoio']}.\n\n"
-                     f"Link no perfil: baitatrend.com.br, na seção Testando agora.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #shopee",
+                     f"Link no perfil: baitatrend.com.br, na seção Testando agora.\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #shopee",
         })
     json.dump(agenda, open(os.path.join(saida, "agenda.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
