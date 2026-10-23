@@ -1,49 +1,45 @@
 {
   "semana_atual": {
     "exemplo": false,
-    "numero": 2,
-    "inicio": "2026-10-19",
-    "fim": "2026-10-25",
-    "produto": "Ventilador de mesa Mondial Super Power 30 cm",
-    "porque": "É o ventilador mais vendido da categoria Ar e Ventilação do Mercado Livre, com mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. Tem hélice de 30 cm com 6 pás, 3 velocidades, oscilação e inclinação. Com o Inmet prevendo outubro mais quente que o normal, as buscas por ventilador no Google subiram 73% desde julho.",
+    "numero": 3,
+    "inicio": "2026-10-26",
+    "fim": "2026-11-01",
+    "produto": "Piscina infantil estrutural Mor 400 litros",
+    "porque": "É uma das piscinas estruturais mais vendidas do Mercado Livre: mais de 100 mil vendidos e nota 4,8 em 34 mil opiniões. Tem 400 litros, estrutura de aço e monta por encaixe em 1,10 m x 1,10 m. As buscas por piscina no Google subiram 74% de junho para outubro, e a semana termina no feriadão de Finados.",
     "sinais": [
       {
-        "valor": "+73%",
-        "fonte": "buscas por ventilador no Google, de julho para outubro"
+        "valor": "+74%",
+        "fonte": "buscas por piscina no Google, de junho para outubro"
       },
       {
-        "valor": "317k",
-        "fonte": "views em um vídeo deste ventilador no TikTok"
+        "valor": "2,2 mi",
+        "fonte": "views em um vídeo de piscina estrutural no TikTok"
       },
       {
-        "valor": "1º",
-        "fonte": "mais vendido em Ar e Ventilação no Mercado Livre"
+        "valor": "+100 mil",
+        "fonte": "vendidos desta piscina no Mercado Livre"
       }
     ],
-    "preco": "R$ 140,56",
-    "link": "https://meli.la/28Muzpv",
+    "preco": "R$ 132,05",
+    "link": "https://meli.la/2AQGp2t",
     "loja": "Mercado Livre",
     "foto": null,
     "fotos": [
-      "https://http2.mlstatic.com/D_NQ_NP_2X_620576-MLA99958768953_112025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_683161-MLA119271161009_102026-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_851851-MLA88339985627_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_857413-MLA88079387344_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_615016-MLA88419803767_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_789360-MLA88079337928_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_948550-MLA105448120021_012026-F.jpg"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_827280-MLA95700991574_102025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_797940-MLA92326860674_092025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_957614-MLA118524728805_092026-F.jpg"
     ],
     "nota": "4,8",
-    "vendidos": "+500 mil",
+    "vendidos": "+100 mil",
     "beneficios": [
-      "Hélice de 30 cm com 6 pás e 60 W de potência",
-      "3 velocidades e oscilação horizontal para espalhar o ar",
-      "Inclinação vertical regulável para mirar o vento",
-      "Nível de ruído de 40 dB, segundo a ficha técnica",
-      "Alça de transporte e grade removível; 49 cm de altura e 1,6 kg"
+      "400 litros em 1,10 m x 1,10 m, com 33 cm de altura",
+      "Estrutura de aço com pintura epóxi e encaixes de polipropileno",
+      "Lona de PVC com estampa de ondas; desmonta para guardar",
+      "Certificação do Inmetro informada na ficha técnica",
+      "Para até 2 crianças, a partir de 1 ano, segundo a ficha"
     ],
     "video_tiktok": null,
-    "video_loja": "https://meli.la/28Muzpv",
+    "video_loja": "https://meli.la/2AQGp2t",
     "posts": [
       {
         "dia": "Seg",
@@ -63,7 +59,7 @@
       {
         "dia": "Qui",
         "formato": "video",
-        "tema": "Cabe na sua mesa?"
+        "tema": "Cabe no seu quintal?"
       },
       {
         "dia": "Sex",
@@ -73,7 +69,7 @@
       {
         "dia": "Sáb",
         "formato": "video",
-        "tema": "Quanto gasta de luz?"
+        "tema": "Quantos baldes?"
       },
       {
         "dia": "Dom",
@@ -83,6 +79,15 @@
     ]
   },
   "historico": [
+    {
+      "numero": 2,
+      "inicio": "2026-10-19",
+      "fim": "2026-10-25",
+      "produto": "Ventilador de mesa Mondial Super Power 30 cm",
+      "preco": "R$ 140,56",
+      "link": "https://meli.la/28Muzpv",
+      "loja": "Mercado Livre"
+    },
     {
       "numero": 1,
       "inicio": "2026-10-12",
