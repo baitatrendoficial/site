@@ -166,7 +166,7 @@ def main():
             "data": f"{dt.isoformat()}T{HORA_TIKTOK}:00",
             "arquivo": f"stories/{NOMES[dia]}-2.jpg",
             "titulo": f"{prod}: {etq.lower()}"[:90],
-            "texto": f"{tit}. {prod} por {preco}, link no perfil: baitatrend.com.br\n\n#publi Link de afiliado.\n#baitatrend #achadinhos #emalta",
+            "texto": f"{tit}. {prod} por {preco}, link no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #achadinhos #emalta\n#publi Link de afiliado.",
         })
     with open(os.path.join(saida, "reforco.json"), "w", encoding="utf-8") as fp:
         json.dump(reforco, fp, ensure_ascii=False, indent=2)

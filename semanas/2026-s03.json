@@ -1,0 +1,158 @@
+{
+  "numero": 3,
+  "inicio": "2026-10-26",
+  "fim": "2026-11-01",
+  "periodo_curto": "26 out–1 nov",
+  "periodo_longo": "26 de outubro a 1º de novembro de 2026",
+  "produto": "Piscina infantil estrutural Mor 400 litros",
+  "beneficios": [
+    "400 litros em 1,10 m x 1,10 m",
+    "Estrutura de aço, monta por encaixe"
+  ],
+  "preco": "R$ 132,05",
+  "link": "https://meli.la/2AQGp2t",
+  "loja": "Mercado Livre",
+  "foto": "fotos/2026-s03/1.jpg",
+  "porque_site": "É uma das piscinas estruturais mais vendidas do Mercado Livre: mais de 100 mil vendidos e nota 4,8 em 34 mil opiniões. Tem 400 litros, estrutura de aço e monta por encaixe em 1,10 m x 1,10 m. As buscas por piscina no Google subiram 74% de junho para outubro, e a semana termina no feriadão de Finados.",
+  "sinais": [
+    {
+      "valor": "+74%",
+      "fonte": "buscas por piscina no Google, de junho para outubro"
+    },
+    {
+      "valor": "2,2 mi",
+      "fonte": "views em um vídeo de piscina estrutural no TikTok"
+    },
+    {
+      "valor": "+100 mil",
+      "fonte": "vendidos desta piscina no Mercado Livre"
+    }
+  ],
+  "porque": {
+    "titulo": "O verão começa antes no quintal.",
+    "numero": "+74%",
+    "numero_texto": "mais buscas por “piscina” no Google de junho para outubro",
+    "itens": [
+      {
+        "titulo": "Feriadão de Finados",
+        "texto": "Segunda, 2 de novembro, é feriado: são três dias seguidos de folga."
+      },
+      {
+        "titulo": "Mais ondas de calor",
+        "texto": "O Cemaden prevê pelo menos seis ondas de calor entre setembro e dezembro."
+      }
+    ],
+    "fontes": "Google Trends, Brasil, jun–out 2026 · Cemaden, análise publicada em 19/09/2026"
+  },
+  "checklist": {
+    "titulo": "Antes de comprar uma piscina, confira:",
+    "itens": [
+      {
+        "forte": "Espaço livre.",
+        "texto": "Esta ocupa 1,10 m x 1,10 m: meça o chão antes."
+      },
+      {
+        "forte": "Piso protegido.",
+        "texto": "Tire pedras e pontas do lugar: a lona é de PVC."
+      },
+      {
+        "forte": "Selo do Inmetro.",
+        "texto": "Este modelo informa a certificação na ficha técnica."
+      },
+      {
+        "forte": "Adulto por perto.",
+        "texto": "Criança na água sempre com alguém olhando."
+      }
+    ]
+  },
+  "videos": [
+    {
+      "dia": "Ter",
+      "duracao": "13 segundos",
+      "titulo": "Por que vende tanto?",
+      "subtitulo": "Mais de 100 mil vendidos no Mercado Livre.",
+      "frame": "Frame do vídeo: piscina quadrada azul",
+      "frame_foto": "fotos/2026-s03/1.jpg",
+      "roteiro": [
+        "0–2 s · piscina quadrada azul com estampa de ondas · texto: +100 mil vendidos no Mercado Livre",
+        "2–5 s · detalhe do canto com a perna de aço · texto: Nota 4,8 em 34 mil opiniões",
+        "5–7 s · piscina com água no jardim · texto: Estrutura de aço, monta por encaixe",
+        "7–10 s · piscina quadrada azul · texto: Feita para quem tem pouco espaço",
+        "10–13 s · card final do Baita Trend com preço e #publi"
+      ]
+    },
+    {
+      "dia": "Qui",
+      "duracao": "15 segundos",
+      "titulo": "Cabe no seu quintal?",
+      "subtitulo": "1,10 m x 1,10 m e 33 cm de altura.",
+      "frame": "Frame do vídeo: piscina com água no jardim",
+      "frame_foto": "fotos/2026-s03/3.jpg",
+      "roteiro": [
+        "0–2 s · detalhe do canto com a perna de aço · texto: Ela cabe no seu quintal?",
+        "2–5 s · piscina com água no jardim · texto: 1,10 m x 1,10 m",
+        "5–7 s · piscina quadrada azul · texto: 33 cm de altura e 400 litros",
+        "7–10 s · detalhe do canto com a perna de aço · texto: Monta por encaixe",
+        "10–12 s · piscina com água no jardim · texto: Desmonta e guarda depois",
+        "12–15 s · card final do Baita Trend com preço e #publi"
+      ]
+    },
+    {
+      "dia": "Sáb",
+      "duracao": "15 segundos",
+      "titulo": "Quantos baldes?",
+      "subtitulo": "400 litros dão 40 baldes de 10 litros.",
+      "frame": "Frame do vídeo: detalhe do canto da piscina",
+      "frame_foto": "fotos/2026-s03/2.jpg",
+      "roteiro": [
+        "0–2 s · piscina com água no jardim · texto: Quantos baldes enchem esta piscina?",
+        "2–5 s · piscina quadrada azul · texto: 400 litros = 40 baldes de 10 L",
+        "5–7 s · detalhe do canto com a perna de aço · texto: Não mude de lugar com água dentro",
+        "7–10 s · piscina com água no jardim · texto: Tire pedras e pontas do chão",
+        "10–12 s · piscina quadrada azul · texto: Criança na água só com adulto perto",
+        "12–15 s · card final do Baita Trend com preço e #publi"
+      ]
+    }
+  ],
+  "legendas": {
+    "Seg": "Por que todo mundo está procurando piscina? As buscas no Google subiram 74% de junho para outubro, e esta semana termina no feriadão de Finados.\n\nO destaque da semana 3 é uma das piscinas estruturais mais vendidas do Mercado Livre: Mor 400 litros, com estrutura de aço e 1,10 m x 1,10 m. Mais de 100 mil vendidos e nota 4,8.\n\nR$ 132,05 no Pix · Link no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #piscina #verao #emalta\n#publi Link de afiliado.",
+    "Ter": "Mais de 100 mil vendidos e nota 4,8 em 34 mil opiniões. O que explica? Estrutura de aço com encaixes de polipropileno, lona de PVC, 400 litros e um tamanho feito para pouco espaço: 1,10 m x 1,10 m.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #piscina #verao #achadinhos\n#publi Link de afiliado.",
+    "Qua": "O número que explica a corrida pela piscina: +74%. É quanto subiram as buscas por “piscina” no Google de junho para outubro. E o pico costuma vir depois: na semana do Réveillon passado, a busca foi quase 4 vezes maior que a de agora. O Cemaden prevê pelo menos seis ondas de calor entre setembro e dezembro.\n\nFontes: Google Trends e Cemaden.\n\nA piscina estrutural que está entre as mais vendidas do Mercado Livre está no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #calor #verao #emalta\n#publi Link de afiliado.",
+    "Qui": "Ela cabe no seu quintal? A piscina do destaque ocupa 1,10 m x 1,10 m e tem 33 cm de altura. A estrutura é de aço, monta por encaixe e desmonta para guardar fora da temporada.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #piscina #quintal #verao\n#publi Link de afiliado.",
+    "Sex": "Vale ou não vale? A piscina infantil estrutural Mor 400 litros.\n\nPrós: estrutura de aço, monta por encaixe e desmonta, lona de PVC, certificação do Inmetro na ficha técnica. Nota 4,8 em 34 mil opiniões.\n\nContras: tem 33 cm de altura, então é para criança pequena (a ficha indica a partir de 1 ano, até 2 pessoas). A ficha diz que não tem válvula de deságue. E o preço de R$ 132,05 é no Pix; no cartão sai R$ 139.\n\nPara quem é: família com criança pequena e pouco espaço, como quintal, área ou varanda.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #valeounaovale #piscina #dicasdecompra\n#publi Link de afiliado.",
+    "Sáb": "Quantos baldes enchem esta piscina? São 400 litros: 40 baldes de 10 litros. Três cuidados do próprio anúncio: não mude a piscina de lugar com água dentro, proteja o piso de objetos pontiagudos e nunca deixe criança sozinha perto da água.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #piscina #verao #seguranca\n#publi Link de afiliado.",
+    "Dom": "Último dia da piscina Mor 400 litros como destaque, bem no meio do feriadão. Segunda que vem tem produto novo por aqui.\n\nComenta: qual produto você quer ver nas próximas semanas?\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #emalta #piscina\n#publi Link de afiliado."
+  },
+  "anuncio": {
+    "titulo": "Piscina Infantil Quadrada Estrutural Pvc 400 Litros - Mor",
+    "url": "https://www.mercadolivre.com.br/piscina-infantil-quadrada-estrutural-pvc-400-litros-mor/p/MLB9900673",
+    "vendidos": "+100 mil",
+    "nota": "4,8",
+    "opinioes": 34819,
+    "ranking": "3º mais vendido em Piscinas Estruturais",
+    "comissao": "24% (ganhos extras)",
+    "preco_cartao": "R$ 139,00",
+    "vendedor": "Loja Zuha (loja oficial)",
+    "altura_cm": 33,
+    "largura_cm": 110,
+    "comprimento_cm": 110,
+    "peso_g": 2880,
+    "consultado_em": "2026-10-23"
+  },
+  "fotos_site": [
+    "https://http2.mlstatic.com/D_NQ_NP_2X_827280-MLA95700991574_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_797940-MLA92326860674_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_957614-MLA118524728805_092026-F.jpg"
+  ],
+  "nota": "4,8",
+  "vendidos": "+100 mil",
+  "beneficios_site": [
+    "400 litros em 1,10 m x 1,10 m, com 33 cm de altura",
+    "Estrutura de aço com pintura epóxi e encaixes de polipropileno",
+    "Lona de PVC com estampa de ondas; desmonta para guardar",
+    "Certificação do Inmetro informada na ficha técnica",
+    "Para até 2 crianças, a partir de 1 ano, segundo a ficha"
+  ],
+  "video_tiktok": null,
+  "video_loja": null
+}
