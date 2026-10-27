@@ -1,0 +1,286 @@
+{
+ "semana": "2026-s03",
+ "subids": "pinterest / semana03",
+ "pins": [
+  {
+   "id": "58257789013",
+   "nome": "Omeleteira elétrica inox Agratto Mr Cheff",
+   "gancho": "Omelete sem frigideira?",
+   "apoio": "Omeleteira elétrica de inox, nota 4,9",
+   "nota": "4,9",
+   "vendas": "1 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/3qOCfa1ani"
+  },
+  {
+   "id": "22499247158",
+   "nome": "Carregador portátil mini 10.000 mAh",
+   "gancho": "10.000 mAh num carregador mini",
+   "apoio": "Saídas Tipo-C e Lightning, 10 mil vendidos",
+   "nota": "4,6",
+   "vendas": "10 mil+",
+   "categoria": "Tecnologia",
+   "link": "https://s.shopee.com.br/3LRw4f3Uob"
+  },
+  {
+   "id": "23497309877",
+   "nome": "Espremedor elétrico recarregável por USB",
+   "gancho": "90 mil pessoas compraram este espremedor",
+   "apoio": "Recarregável por USB, nota 4,6",
+   "nota": "4,6",
+   "vendas": "90 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/3g4mTH2E8h"
+  },
+  {
+   "id": "22892833180",
+   "nome": "Jogo de chaves com catraca 40/46 peças",
+   "gancho": "400 mil pessoas compraram este kit",
+   "apoio": "Chaves com catraca e maleta, nota 4,8",
+   "nota": "4,8",
+   "vendas": "400 mil+",
+   "categoria": "Ferramentas",
+   "link": "https://s.shopee.com.br/2qVfTk5OpY"
+  },
+  {
+   "id": "18598298511",
+   "nome": "Mochila térmica grande, quente ou frio",
+   "gancho": "A mochila que vira cooler",
+   "apoio": "Mantém quente ou frio, nota 4,9",
+   "nota": "4,9",
+   "vendas": "10 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/7VHV2LZcru"
+  },
+  {
+   "id": "58262972685",
+   "nome": "Massageador de pescoço e ombros com calor",
+   "gancho": "Massagem no pescoço com calor, em casa",
+   "apoio": "Portátil, nota 4,9",
+   "nota": "4,9",
+   "vendas": "1 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/2gCFHR62AX"
+  },
+  {
+   "id": "58207657402",
+   "nome": "Caixa de som Bluetooth IPX6 com rádio FM",
+   "gancho": "Caixa de som que aguenta respingo",
+   "apoio": "IPX6, Bluetooth, pendrive e FM, nota 4,8",
+   "nota": "4,8",
+   "vendas": "3 mil+",
+   "categoria": "Tecnologia",
+   "link": "https://s.shopee.com.br/7Ky4q2aGCt"
+  },
+  {
+   "id": "20103606180",
+   "nome": "Barbeador e aparador elétrico 3 em 1",
+   "gancho": "100 mil vendidos: o barbeador 3 em 1",
+   "apoio": "Barbeia e apara, nota 4,8",
+   "nota": "4,8",
+   "vendas": "100 mil+",
+   "categoria": "Beleza",
+   "link": "https://s.shopee.com.br/3B8VsNq7f6"
+  },
+  {
+   "id": "58217601055",
+   "nome": "Parafusadeira 25V sem fio com maleta",
+   "gancho": "Parafusadeira 25V sem fio com maleta",
+   "apoio": "Sem fio, kit com maleta, nota 4,8",
+   "nota": "4,8",
+   "vendas": "3 mil+",
+   "categoria": "Ferramentas",
+   "link": "https://s.shopee.com.br/30p5g4ql05"
+  },
+  {
+   "id": "22294171220",
+   "nome": "Kit 5 tigelas de vidro com tampa hermética",
+   "gancho": "Potes de vidro com tampa hermética",
+   "apoio": "Tampas herméticas, nota 4,7",
+   "nota": "4,7",
+   "vendas": "2 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/2qVfTlrOL4"
+  },
+  {
+   "id": "55260497129",
+   "nome": "Kit estética automotiva Vonixx (V-Floc, pretinho, pano e aplicador)",
+   "gancho": "O kit que deixa o carro com cara de lavado",
+   "apoio": "Shampoo V-Floc, pretinho, pano e aplicador, nota 4,9",
+   "nota": "4,9",
+   "vendas": "5 mil+",
+   "categoria": "Ferramentas",
+   "link": "https://s.shopee.com.br/1Lgrh2EIU9"
+  },
+  {
+   "id": "58217580101",
+   "nome": "Jogo de facas de cozinha 8 peças",
+   "gancho": "Jogo de facas com 8 peças",
+   "apoio": "Nota 4,9 com 7 mil vendidos",
+   "nota": "4,9",
+   "vendas": "7 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/1qd8HxCOTG"
+  },
+  {
+   "id": "20599380884",
+   "nome": "Jogo de panelas antiaderentes 5 peças com tampa de vidro",
+   "gancho": "Panela que não gruda mesmo?",
+   "apoio": "5 peças com tampa de vidro, nota 4,7",
+   "nota": "4,7",
+   "vendas": "6 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/1gJi5eD1oF"
+  },
+  {
+   "id": "20498140657",
+   "nome": "Mop giratório com balde centrífuga 14 L",
+   "gancho": "Por que 100 mil pessoas compraram este mop?",
+   "apoio": "Balde com centrífuga de 14 L, nota 4,8",
+   "nota": "4,8",
+   "vendas": "100 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/qkb67GCV6"
+  },
+  {
+   "id": "26787190586",
+   "nome": "Mini ventilador climatizador USB com LED",
+   "gancho": "Mini ar-condicionado USB: refresca mesmo?",
+   "apoio": "Ventila, umidifica e ilumina. Refresca de perto, nota 4,8",
+   "nota": "4,8",
+   "vendas": "4 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/BUuIuZvt4"
+  },
+  {
+   "id": "22594666523",
+   "nome": "Chaleira elétrica inox 1,8 litro",
+   "gancho": "Chaleira elétrica inox de 1,8 litro",
+   "apoio": "Inox, 1,8 litro, nota 4,9",
+   "nota": "4,9",
+   "vendas": "10 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/70LERUMqrH"
+  },
+  {
+   "id": "29028867072",
+   "nome": "Torneira gourmet de cozinha com spray flexível",
+   "gancho": "Torneira com spray: vale trocar?",
+   "apoio": "Extensor flexível, 80 mil vendidos, nota 4,9",
+   "nota": "4,9",
+   "vendas": "80 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/6Am7RxQ1Y8"
+  },
+  {
+   "id": "20175848083",
+   "nome": "Spray impermeabilizante emborrachado Vedatudo 400 ml",
+   "gancho": "Spray que veda vazamento?",
+   "apoio": "Impermeabilizante emborrachado, nota 4,8",
+   "nota": "4,8",
+   "vendas": "50 mil+",
+   "categoria": "Ferramentas",
+   "link": "https://s.shopee.com.br/1BU6baZE3"
+  },
+  {
+   "id": "23392973710",
+   "nome": "Protetor de colchão impermeável e silencioso",
+   "gancho": "Por que 100 mil pessoas compraram este protetor?",
+   "apoio": "Protetor de colchão impermeável e silencioso, nota 4,9",
+   "nota": "4,9",
+   "vendas": "100 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/1141IRWlCH"
+  },
+  {
+   "id": "22898373049",
+   "nome": "Espelho orgânico lapidado grande",
+   "gancho": "20 mil vendidos: o espelho orgânico",
+   "apoio": "Lapidado, 120x50 ou 95x40 cm, nota 4,9",
+   "nota": "4,9",
+   "vendas": "20 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/gRAtoGpq5"
+  },
+  {
+   "id": "22698677025",
+   "nome": "Varal de chão 3 andares dobrável com rodas",
+   "gancho": "Varal de 3 andares com rodinhas?",
+   "apoio": "Dobrável, 50 mil vendidos, nota 4,9",
+   "nota": "4,9",
+   "vendas": "50 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/1BNRUkW7rI"
+  },
+  {
+   "id": "58261888023",
+   "nome": "Passadeira a vapor portátil 800 W",
+   "gancho": "Tirar amassado sem ferro de passar?",
+   "apoio": "Passadeira a vapor portátil de 800 W, nota 4,7",
+   "nota": "4,7",
+   "vendas": "2 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/qkb68XOXG"
+  },
+  {
+   "id": "23898692172",
+   "nome": "Ventilador de teto com luz LED (encaixe E27)",
+   "gancho": "Ventilador que encaixa no bocal da lâmpada?",
+   "apoio": "Com luz LED e controle remoto, 100 mil vendidos",
+   "nota": "4,8",
+   "vendas": "100 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/7AeednMDWI"
+  },
+  {
+   "id": "22694069772",
+   "nome": "Amolador elétrico de facas e tesouras",
+   "gancho": "Amolador elétrico de facas e tesouras",
+   "apoio": "A pilha, afia facas e tesouras, nota 4,6",
+   "nota": "4,6",
+   "vendas": "6 mil+",
+   "categoria": "Ferramentas",
+   "link": "https://s.shopee.com.br/60ShFeQet7"
+  },
+  {
+   "id": "23594149969",
+   "nome": "Kit 5 caixas organizadoras com tampa",
+   "gancho": "5 caixas organizadoras com tampa",
+   "apoio": "De 2, 4,5 e 17 litros, nota 4,9",
+   "nota": "4,9",
+   "vendas": "20 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/3LRw4laGi4"
+  },
+  {
+   "id": "58266799438",
+   "nome": "Kit Coala Home Chá Branco (4 itens)",
+   "gancho": "200 mil vendidos: o cheirinho de casa",
+   "apoio": "Kit Chá Branco com 4 itens, nota 5,0",
+   "nota": "5,0",
+   "vendas": "200 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/6VOxqZOksE"
+  },
+  {
+   "id": "58200253216",
+   "nome": "Kit travesseiros 50x70 cm (2 ou 4)",
+   "gancho": "Travesseiro com 70 mil vendidos?",
+   "apoio": "Kit com 2 ou 4, 50x70 cm, nota 4,7",
+   "nota": "4,7",
+   "vendas": "70 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/30p5g9bXNy"
+  },
+  {
+   "id": "22893267017",
+   "nome": "Árvore de Natal pinheiro 2,10 m com 600 galhos",
+   "gancho": "Já pensou na árvore de Natal?",
+   "apoio": "Pinheiro de 2,10 m com 600 galhos, nota 4,8",
+   "nota": "4,8",
+   "vendas": "10 mil+",
+   "categoria": "Casa e cozinha",
+   "link": "https://s.shopee.com.br/3B8VsSau31"
+  }
+ ]
+}
