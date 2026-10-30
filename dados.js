@@ -1,49 +1,48 @@
 window.BAITA = {
   "semana_atual": {
     "exemplo": false,
-    "numero": 2,
-    "inicio": "2026-10-19",
-    "fim": "2026-10-25",
-    "produto": "Ventilador de mesa Mondial Super Power 30 cm",
-    "porque": "É o ventilador mais vendido da categoria Ar e Ventilação do Mercado Livre, com mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. Tem hélice de 30 cm com 6 pás, 3 velocidades, oscilação e inclinação. Com o Inmet prevendo outubro mais quente que o normal, as buscas por ventilador no Google subiram 73% desde julho.",
+    "numero": 4,
+    "inicio": "2026-11-02",
+    "fim": "2026-11-08",
+    "produto": "Árvore de Natal LuvinCo 1,50 m com 450 galhos",
+    "porque": "É a árvore de Natal mais vendida do Mercado Livre: 1º lugar na categoria, mais de 10 mil vendidos e nota 4,9 em 6,8 mil opiniões. Tem 1,50 m de altura, 450 galhos, 80 cm de diâmetro e base de metal com pontas emborrachadas. As buscas por “árvore de natal” no Google ficaram quase 12 vezes maiores de agosto para outubro, e no ano passado o pico veio em meados de novembro.",
     "sinais": [
       {
-        "valor": "+73%",
-        "fonte": "buscas por ventilador no Google, de julho para outubro"
+        "valor": "12x",
+        "fonte": "buscas por “árvore de natal” no Google, de agosto para outubro"
       },
       {
-        "valor": "317k",
-        "fonte": "views em um vídeo deste ventilador no TikTok"
+        "valor": "1,4 mi",
+        "fonte": "views em um vídeo de árvore de Natal no TikTok"
       },
       {
         "valor": "1º",
-        "fonte": "mais vendido em Ar e Ventilação no Mercado Livre"
+        "fonte": "mais vendido em Árvores de Natal no Mercado Livre"
       }
     ],
-    "preco": "R$ 140,56",
-    "link": "https://meli.la/28Muzpv",
+    "preco": "R$ 142,40",
+    "link": "https://meli.la/1wKpbDV",
     "loja": "Mercado Livre",
     "foto": null,
     "fotos": [
-      "https://http2.mlstatic.com/D_NQ_NP_2X_620576-MLA99958768953_112025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_683161-MLA119271161009_102026-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_851851-MLA88339985627_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_857413-MLA88079387344_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_615016-MLA88419803767_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_789360-MLA88079337928_072025-F.jpg",
-      "https://http2.mlstatic.com/D_NQ_NP_2X_948550-MLA105448120021_012026-F.jpg"
+      "https://http2.mlstatic.com/D_NQ_NP_2X_657656-MLA120365469517_102026-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_760469-MLA92805936685_092025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_812451-MLA92396952234_092025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_686615-MLA92805900237_092025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_619849-MLA92805753913_092025-F.jpg",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_693753-MLA92396972026_092025-F.jpg"
     ],
-    "nota": "4,8",
-    "vendidos": "+500 mil",
+    "nota": "4,9",
+    "vendidos": "+10 mil",
     "beneficios": [
-      "Hélice de 30 cm com 6 pás e 60 W de potência",
-      "3 velocidades e oscilação horizontal para espalhar o ar",
-      "Inclinação vertical regulável para mirar o vento",
-      "Nível de ruído de 40 dB, segundo a ficha técnica",
-      "Alça de transporte e grade removível; 49 cm de altura e 1,6 kg"
+      "1,50 m de altura, 80 cm de diâmetro e 450 galhos",
+      "Galhos presos no tronco: é só abrir",
+      "Base de metal de 35 cm com pontas emborrachadas",
+      "Desmonta em partes para guardar",
+      "Enfeites e luzes vendidos à parte"
     ],
     "video_tiktok": null,
-    "video_loja": "https://meli.la/28Muzpv",
+    "video_loja": "https://meli.la/1wKpbDV",
     "posts": [
       {
         "dia": "Seg",
@@ -63,7 +62,7 @@ window.BAITA = {
       {
         "dia": "Qui",
         "formato": "video",
-        "tema": "Cabe na sua mesa?"
+        "tema": "Cabe na sua sala?"
       },
       {
         "dia": "Sex",
@@ -73,7 +72,7 @@ window.BAITA = {
       {
         "dia": "Sáb",
         "formato": "video",
-        "tema": "Quanto gasta de luz?"
+        "tema": "O que vem na caixa?"
       },
       {
         "dia": "Dom",
@@ -83,6 +82,15 @@ window.BAITA = {
     ]
   },
   "historico": [
+    {
+      "numero": 2,
+      "inicio": "2026-10-19",
+      "fim": "2026-10-25",
+      "produto": "Ventilador de mesa Mondial Super Power 30 cm",
+      "preco": "R$ 140,56",
+      "link": "https://meli.la/28Muzpv",
+      "loja": "Mercado Livre"
+    },
     {
       "numero": 1,
       "inicio": "2026-10-12",

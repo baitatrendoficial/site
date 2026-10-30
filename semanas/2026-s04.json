@@ -2,66 +2,66 @@
   "numero": 4,
   "inicio": "2026-11-02",
   "fim": "2026-11-08",
-  "periodo_curto": "19–25 out",
-  "periodo_longo": "19 a 25 de outubro de 2026",
-  "produto": "Ventilador de mesa Mondial Super Power 30 cm",
+  "periodo_curto": "2–8 nov",
+  "periodo_longo": "2 a 8 de novembro de 2026",
+  "produto": "Árvore de Natal LuvinCo 1,50 m com 450 galhos",
   "beneficios": [
-    "6 pás, 3 velocidades e oscilação",
-    "Nível de ruído de 40 dB"
+    "1,50 m de altura e 450 galhos",
+    "Base de metal com pontas emborrachadas"
   ],
-  "preco": "R$ 140,56",
-  "link": "https://meli.la/28Muzpv",
+  "preco": "R$ 142,40",
+  "link": "https://meli.la/1wKpbDV",
   "loja": "Mercado Livre",
   "foto": "fotos/2026-s04/1.jpg",
-  "porque_site": "É o ventilador mais vendido da categoria Ar e Ventilação do Mercado Livre, com mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. Tem hélice de 30 cm com 6 pás, 3 velocidades, oscilação e inclinação. Com o Inmet prevendo outubro mais quente que o normal, as buscas por ventilador no Google subiram 73% desde julho.",
+  "porque_site": "É a árvore de Natal mais vendida do Mercado Livre: 1º lugar na categoria, mais de 10 mil vendidos e nota 4,9 em 6,8 mil opiniões. Tem 1,50 m de altura, 450 galhos, 80 cm de diâmetro e base de metal com pontas emborrachadas. As buscas por “árvore de natal” no Google ficaram quase 12 vezes maiores de agosto para outubro, e no ano passado o pico veio em meados de novembro.",
   "sinais": [
     {
-      "valor": "+73%",
-      "fonte": "buscas por ventilador no Google, de julho para outubro"
+      "valor": "12x",
+      "fonte": "buscas por “árvore de natal” no Google, de agosto para outubro"
     },
     {
-      "valor": "317k",
-      "fonte": "views em um vídeo deste ventilador no TikTok"
+      "valor": "1,4 mi",
+      "fonte": "views em um vídeo de árvore de Natal no TikTok"
     },
     {
       "valor": "1º",
-      "fonte": "mais vendido em Ar e Ventilação no Mercado Livre"
+      "fonte": "mais vendido em Árvores de Natal no Mercado Livre"
     }
   ],
   "porque": {
-    "titulo": "O calor chegou antes do verão.",
-    "numero": "+73%",
-    "numero_texto": "mais buscas por “ventilador” no Google desde julho",
+    "titulo": "O Natal começa antes nas buscas.",
+    "numero": "12x",
+    "numero_texto": "mais buscas por “árvore de natal” no Google do que no começo de agosto",
     "itens": [
       {
-        "titulo": "Outubro mais quente que o normal",
-        "texto": "O Inmet prevê calor acima da média, com mais de 2 °C extras em GO, DF e MG."
+        "titulo": "O pico ainda vem",
+        "texto": "Em 2025, a semana mais buscada foi a de 16 de novembro: quase 3 vezes o nível de agora."
       },
       {
-        "titulo": "Pico em 30 de setembro",
-        "texto": "No dia mais buscado, o interesse foi quase 3 vezes o de julho."
+        "titulo": "A dúvida do momento",
+        "texto": "“Quando montar a árvore de Natal” está entre as buscas que mais cresceram no ano."
       }
     ],
-    "fontes": "Google Trends, Brasil, jul–out 2026 · Inmet, previsão para outubro (26/09/2026)"
+    "fontes": "Google Trends, Brasil, nov/2025–out/2026 (consulta em 30/10/2026)"
   },
   "checklist": {
-    "titulo": "Antes de comprar um ventilador, confira:",
+    "titulo": "Antes de comprar uma árvore de Natal, confira:",
     "itens": [
       {
-        "forte": "Voltagem certa.",
-        "texto": "Este vem em 127 V ou 220 V: escolha a da sua tomada."
+        "forte": "Altura e diâmetro.",
+        "texto": "Esta tem 1,50 m de altura e 80 cm de largura: meça o canto."
       },
       {
-        "forte": "Tamanho da hélice.",
-        "texto": "30 cm é o de mesa; para sala grande existem os de 40 cm."
+        "forte": "Número de galhos.",
+        "texto": "Mais galhos, árvore mais cheia. Esta tem 450."
       },
       {
-        "forte": "Nível de ruído.",
-        "texto": "Procure o valor em dB na ficha técnica. Este marca 40 dB."
+        "forte": "Tipo de base.",
+        "texto": "Pé de metal com pontas emborrachadas protege o piso."
       },
       {
-        "forte": "Etiqueta do Inmetro.",
-        "texto": "Mostra o consumo em kWh por mês antes de você ligar."
+        "forte": "O que vem junto.",
+        "texto": "Nesta, enfeites e luzes são vendidos à parte."
       }
     ]
   },
@@ -70,71 +70,77 @@
       "dia": "Ter",
       "duracao": "13 segundos",
       "titulo": "Por que vende tanto?",
-      "subtitulo": "Mais de 500 mil vendidos no Mercado Livre.",
-      "frame": "Frame do vídeo: ventilador ligado na sala (cena de IA)",
-      "frame_foto": "fotos/2026-s02/1.jpg",
+      "subtitulo": "A nº 1 em Árvores de Natal no Mercado Livre.",
+      "frame": "Frame do vídeo: árvore montada na sala",
+      "frame_foto": "fotos/2026-s04/1.jpg",
       "roteiro": [
-        "0–3 s · cena de IA: ventilador ligado na sala, hélice girando · texto: +500 mil vendidos no Mercado Livre",
-        "3–7 s · cena de IA: ventilador oscilando, cortina mexendo com o vento · texto: Nota 4,8 em 200 mil opiniões",
-        "7–10 s · cena de IA: ventilador de lado, oscilando · texto: Oscila para espalhar o vento",
+        "0–2 s · árvore montada na sala, com a base de metal em destaque · texto: A árvore nº 1 do Mercado Livre",
+        "2–5 s · detalhe da folhagem, dos arames e do pé de ferro · texto: +10 mil vendidos e nota 4,9",
+        "5–7 s · árvore com as medidas · texto: 1,50 m e 450 galhos",
+        "7–10 s · galhos sendo abertos à mão · texto: Os galhos já vêm presos: é só abrir",
         "10–13 s · card final do Baita Trend com preço e #publi"
-      ],
-      "cena_ia": "ia-ventilador-sala.mp4"
+      ]
     },
     {
       "dia": "Qui",
       "duracao": "15 segundos",
-      "titulo": "Cabe na sua mesa?",
-      "subtitulo": "49 cm de altura e 1,6 kg.",
-      "frame": "Frame do vídeo: ventilador na sala",
-      "frame_foto": "fotos/2026-s02/2.jpg",
+      "titulo": "Cabe na sua sala?",
+      "subtitulo": "1,50 m de altura e 80 cm de diâmetro.",
+      "frame": "Frame do vídeo: árvore com as medidas",
+      "frame_foto": "fotos/2026-s04/3.jpg",
       "roteiro": [
-        "0–2 s · ventilador na sala ao lado de uma mulher lendo · texto: Ele cabe na sua mesa?",
-        "2–5 s · ventilador de lado mostrando a inclinação · texto: Inclinação regulável",
-        "5–7 s · ventilador de lado com o botão de oscilação · texto: Oscila para espalhar o ar",
-        "7–10 s · detalhe da alça de transporte · texto: Alça para mudar de cômodo",
-        "10–12 s · ventilador com as medidas · texto: 49 cm de altura e 1,6 kg",
+        "0–2 s · detalhe da folhagem, dos arames e do pé de ferro · texto: Ela cabe na sua sala?",
+        "2–5 s · árvore com as medidas · texto: 1,50 m de altura e 80 cm de diâmetro",
+        "5–7 s · galhos sendo abertos à mão · texto: Galhos presos no tronco: é só abrir",
+        "7–10 s · base de metal com pontas emborrachadas · texto: Base de 35 cm que não risca o chão",
+        "10–12 s · árvore decorada ao lado da lareira · texto: Enfeites e luzes são à parte",
         "12–15 s · card final do Baita Trend com preço e #publi"
       ]
     },
     {
       "dia": "Sáb",
       "duracao": "15 segundos",
-      "titulo": "Quanto gasta de luz?",
-      "subtitulo": "O número está na etiqueta do Inmetro.",
-      "frame": "Frame do vídeo: ventilador de lado",
-      "frame_foto": "fotos/2026-s02/3.jpg",
+      "titulo": "O que vem na caixa?",
+      "subtitulo": "Árvore em 3 partes e base de metal.",
+      "frame": "Frame do vídeo: base de metal da árvore",
+      "frame_foto": "fotos/2026-s04/5.jpg",
       "roteiro": [
-        "0–2 s · ventilador de lado · texto: Quanto gasta um ventilador?",
-        "2–5 s · ventilador de lado com o botão de oscilação · texto: 60 W de potência",
-        "5–7 s · detalhe do botão de velocidade · texto: 3 velocidades no botão",
-        "7–10 s · ventilador com as medidas · texto: Hélice de 30 cm com 6 pás",
-        "10–12 s · etiqueta de energia do Inmetro · texto: 1,47 kWh por mês na etiqueta",
+        "0–2 s · árvore com as medidas e as partes A, B e C · texto: O que vem na caixa?",
+        "2–5 s · galhos sendo abertos à mão · texto: A árvore, em 3 partes",
+        "5–7 s · base de metal com pontas emborrachadas · texto: A base de metal",
+        "7–10 s · árvore decorada ao lado da lareira · texto: Enfeites e luzes não vêm",
+        "10–12 s · árvore montada na sala · texto: Desmonta para guardar",
         "12–15 s · card final do Baita Trend com preço e #publi"
       ]
     }
   ],
   "legendas": {
-    "Seg": "Por que todo mundo está atrás de ventilador? Outubro chegou mais quente que o normal e as buscas no Google subiram 73% desde julho.\n\nO destaque da semana 2 é o ventilador mais vendido da categoria Ar e Ventilação do Mercado Livre: Mondial Super Power 30 cm, com 6 pás, 3 velocidades e oscilação. Mais de 500 mil vendidos e nota 4,8.\n\nR$ 140,56 · Link no perfil: baitatrend.com.br\n\n#baitatrend #ventilador #calor #emalta\n#publi Link de afiliado.",
-    "Ter": "Mais de 500 mil vendidos e nota 4,8 em 200 mil opiniões. O que explica? Hélice de 30 cm com 6 pás, inclinação regulável, oscilação, 3 velocidades e 40 dB de ruído na ficha técnica.\n\nLink no perfil: baitatrend.com.br\n\n#baitatrend #ventilador #calor #achadinhos\nCena ilustrativa gerada por IA.\n#publi Link de afiliado.",
-    "Qua": "O número que explica o calor de outubro: +73%. É quanto subiram as buscas por ventilador no Google de julho para outubro. O pico foi em 30 de setembro, quase 3 vezes o nível de julho. E o Inmet prevê o mês com temperatura acima da média, com mais de 2 °C extras em Goiás, no DF e em Minas.\n\nFontes: Google Trends e Inmet.\n\nO ventilador mais vendido do Mercado Livre está no perfil: baitatrend.com.br\n\n#baitatrend #calor #ondadecalor #emalta\n#publi Link de afiliado.",
-    "Qui": "Ele cabe na sua mesa? O destaque da semana tem 49 cm de altura, 35 cm de largura e pesa 1,6 kg. Tem alça para levar de um cômodo para outro, inclina para mirar o vento e oscila para espalhar o ar.\n\nLink no perfil: baitatrend.com.br\n\n#baitatrend #ventilador #quarto #calor\n#publi Link de afiliado.",
-    "Sex": "Vale ou não vale? O ventilador Mondial Super Power 30 cm.\n\nPrós: 6 pás, 3 velocidades, oscilação e inclinação, 40 dB de ruído na ficha técnica, alça e grade removível. Nota 4,8 em 200 mil opiniões.\n\nContras: não tem controle remoto nem timer, e não é bivolt (escolha 127 V ou 220 V). Com 30 cm, é ventilador de mesa, não de sala grande.\n\nPara quem é: quarto, escritório e mesa de trabalho.\n\nLink no perfil: baitatrend.com.br\n\n#baitatrend #valeounaovale #ventilador #dicasdecompra\n#publi Link de afiliado.",
-    "Sáb": "Quanto gasta um ventilador? A etiqueta do Inmetro deste aqui marca 1,47 kWh por mês, medido com 1 hora de uso por dia na velocidade máxima. A potência é de 60 W.\n\nLink no perfil: baitatrend.com.br\n\n#baitatrend #ventilador #contadeluz #economia\n#publi Link de afiliado.",
-    "Dom": "Último dia do ventilador Mondial Super Power como destaque. Segunda que vem tem produto novo por aqui.\n\nComenta: qual produto você quer ver nas próximas semanas?\n\nLink no perfil: baitatrend.com.br\n\n#baitatrend #emalta #ventilador\n#publi Link de afiliado."
+    "Seg": "Por que todo mundo está procurando árvore de Natal? As buscas no Google ficaram quase 12 vezes maiores de agosto para outubro.\n\nO destaque da semana 4 é a árvore de Natal mais vendida do Mercado Livre: LuvinCo 1,50 m, com 450 galhos e base de metal. Mais de 10 mil vendidos e nota 4,9.\n\nR$ 142,40 no Pix · Link no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #arvoredenatal #natal #emalta\n#publi Link de afiliado.",
+    "Ter": "Mais de 10 mil vendidos e nota 4,9 em 6,8 mil opiniões. O que explica? 1,50 m de altura, 450 galhos presos no tronco (é só abrir), pé de ferro com pontas emborrachadas e 80 cm de diâmetro.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #arvoredenatal #natal #achadinhos\n#publi Link de afiliado.",
+    "Qua": "O número que explica a corrida pela árvore de Natal: 12x. É quanto cresceram as buscas por “árvore de natal” no Google do começo de agosto para outubro. E o pico ainda vem: em 2025, a semana mais buscada foi a de 16 de novembro, quase 3 vezes o nível de agora. “Quando montar a árvore” está entre as buscas que mais cresceram.\n\nFonte: Google Trends.\n\nA árvore mais vendida do Mercado Livre está no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #natal #arvoredenatal #emalta\n#publi Link de afiliado.",
+    "Qui": "Ela cabe na sua sala? A árvore do destaque tem 1,50 m de altura e 80 cm de diâmetro, e a base ocupa 35 cm. Os galhos vêm presos no tronco e abrem à mão, e os pés de metal têm pontas emborrachadas para não riscar o chão.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #arvoredenatal #decoracaodenatal #natal\n#publi Link de afiliado.",
+    "Sex": "Vale ou não vale? A árvore de Natal LuvinCo 1,50 m.\n\nPrós: 450 galhos presos no tronco, base de metal com pontas emborrachadas, desmonta para guardar. É a nº 1 em Árvores de Natal no Mercado Livre, com nota 4,9 em 6,8 mil opiniões.\n\nContras: não vem com enfeites nem luzes. Com 1,50 m, não é para pé-direito alto ou sala grande (a mesma loja tem tamanhos maiores). E o preço de R$ 142,40 é no Pix; no cartão sai R$ 149,90.\n\nPara quem é: quem quer uma árvore cheia para sala ou canto médio, sem gastar com as de 1,80 m ou mais.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #valeounaovale #arvoredenatal #dicasdecompra\n#publi Link de afiliado.",
+    "Sáb": "O que vem na caixa? A árvore em 3 partes, com os galhos já presos, e a base de metal. Enfeites e luzes não vêm: a foto decorada do anúncio é só exemplo. Ela desmonta para guardar até o próximo Natal.\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #arvoredenatal #natal #decoracaodenatal\n#publi Link de afiliado.",
+    "Dom": "Último dia da árvore de Natal LuvinCo como destaque. Segunda que vem tem produto novo por aqui.\n\nComenta: sua árvore já está montada ou você espera dezembro?\n\nLink no perfil: baitatrend.com.br\n\nSegue o @baitatrendoficial: todo dia tem achado novo por aqui.\n\n#baitatrend #emalta #arvoredenatal\n#publi Link de afiliado."
   },
   "anuncio": {
-    "titulo": "Ventilador de Mesa 30cm Super Power Mondial 60W VSP-30-B",
-    "url": "https://www.mercadolivre.com.br/ventilador-de-mesa-30cm-super-power-mondial-60w-vsp-30-b/p/MLB18932156",
-    "vendidos": "+500 mil",
-    "nota": "4,8",
-    "opinioes": 200248,
-    "ranking": "1º mais vendido em Ar e Ventilação",
-    "comissao": "5%",
-    "altura_cm": 49,
-    "largura_cm": 35,
-    "peso_g": 1600,
-    "consultado_em": "2026-10-16"
+    "titulo": "Árvore De Natal Pinheiro Canadense Luxo 1,50m 450 Galhos Tradicional Verde Imperial Premium Grande Cheia LuvinCo",
+    "url": "https://www.mercadolivre.com.br/arvore-de-natal-pinheiro-canadense-luxo-150m-450-galhos-tradicional-verde-imperial-premium-grande-cheia-luvinco/p/MLB52362472",
+    "vendidos": "+10 mil",
+    "nota": "4,9",
+    "opinioes": 6835,
+    "ranking": "1º mais vendido em Árvores de Natal",
+    "comissao": "12%",
+    "preco_cartao": "R$ 149,90",
+    "vendedor": "LuvinCo (loja oficial)",
+    "altura_cm": 150,
+    "largura_cm": 80,
+    "base_cm": 35,
+    "peso_g": 5200,
+    "galhos": 450,
+    "observacao": "Enfeites e iluminação não inclusos (aviso na foto do anúncio).",
+    "consultado_em": "2026-10-30",
+    "sinal_tiktok": "https://www.tiktok.com/@moreirajrofc/video/7685067620353101074 (1,4 mi views, 13/09/2026; árvore de Natal gigante do TikTok Shop, não é este modelo)"
   },
   "fotos_site": [
     "https://http2.mlstatic.com/D_NQ_NP_2X_657656-MLA120365469517_102026-F.jpg",
@@ -142,19 +148,16 @@
     "https://http2.mlstatic.com/D_NQ_NP_2X_812451-MLA92396952234_092025-F.jpg",
     "https://http2.mlstatic.com/D_NQ_NP_2X_686615-MLA92805900237_092025-F.jpg",
     "https://http2.mlstatic.com/D_NQ_NP_2X_619849-MLA92805753913_092025-F.jpg",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_693753-MLA92396972026_092025-F.jpg",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_602708-MLA92397154796_092025-F.jpg",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_994781-MLA92805812863_092025-F.jpg",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_750287-MLA115954563514_092026-F.jpg"
+    "https://http2.mlstatic.com/D_NQ_NP_2X_693753-MLA92396972026_092025-F.jpg"
   ],
-  "nota": "4,8",
-  "vendidos": "+500 mil",
+  "nota": "4,9",
+  "vendidos": "+10 mil",
   "beneficios_site": [
-    "Hélice de 30 cm com 6 pás e 60 W de potência",
-    "3 velocidades e oscilação horizontal para espalhar o ar",
-    "Inclinação vertical regulável para mirar o vento",
-    "Nível de ruído de 40 dB, segundo a ficha técnica",
-    "Alça de transporte e grade removível; 49 cm de altura e 1,6 kg"
+    "1,50 m de altura, 80 cm de diâmetro e 450 galhos",
+    "Galhos presos no tronco: é só abrir",
+    "Base de metal de 35 cm com pontas emborrachadas",
+    "Desmonta em partes para guardar",
+    "Enfeites e luzes vendidos à parte"
   ],
   "video_tiktok": null,
   "video_loja": null
